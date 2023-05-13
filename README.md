@@ -206,4 +206,4 @@ Yours sincerely,
 
 <edisonffh@gmail.com>
 
-[ ![image](figs/qrcode_github_page.png) ](https://github.com/e-florez/e-florez)
+[ ![image](figs/qrcode_github_page.png) ](https://github.com/e-florez/)
