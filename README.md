@@ -12,7 +12,7 @@ As a data scientist with a profound background in quantum chemistry, biophysics,
 
 My passion lies in extracting fundamental insights from data, thinking critically, and understanding the rationale behind each task. With my ability to learn quickly and motivation to take on challenges, I have excelled as an individual contributor, taking calculated risks and showing initiative.
 
-My experience spans consulting for a biotech startup and the financial industry, where I developed scientific software, validated scalable HPC algorithms, and worked collaboratively to deliver top-quality, data-driven scientific solutions and visualizations.
+My experience spans consulting for biotech startups and the financial industry, where I develop scientific software, validate scalable HPC algorithms, and work collaboratively to deliver top-quality, data-driven scientific solutions and visualizations.
 
 I have a track record of solving complex problems through algorithm development in research labs in New Zealand, Argentina, and Colombia. In the role of a teacher, I've mentored students in two large universities, simplifying complex scientific concepts, methods, and theories in science, math, and computers.
 
