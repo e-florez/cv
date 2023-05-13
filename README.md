@@ -1,7 +1,8 @@
 ---
 ---
 
-Edison**Florez**\
+# Edison**Florez**\
+
 Data Scientist \| Computational Biophysicist\
 Scientific Algorithm Developer
 
