@@ -1,4 +1,4 @@
-\documentclass[12pt]{extarticle}
+\documentclass[11pt]{extarticle}
 
 \usepackage[english]{babel}
 \usepackage[latin1]{}
@@ -7,12 +7,12 @@
 %-------------------------------------------------------
 \usepackage[
     a4paper,
-    paperwidth=21cm,
-    paperheight=29.7cm,
-    top=2cm,
-    bottom=2cm,
-    left=1.5cm,
-    right=1.5cm,
+    paperwidth=210mm,
+    paperheight=297mm,
+    top=25mm,
+    bottom=25mm,
+    left=20mm,
+    right=20mm,
     ]{geometry}
 
 \renewcommand{\baselinestretch}{1.1}
@@ -21,10 +21,12 @@
 \emergencystretch=\maxdimen
 \hyphenpenalty=10000
 \hbadness=10000
+
+\setlength{\parindent}{0pt}
 %-------------------------------------------------
 \usepackage[titles]{tocloft}
 \usepackage{amsthm}
-\pagenumbering{roman}
+\pagenumbering{arabic}
 \usepackage{times}
 \usepackage{multicol}
 % \setlength{\columnsep}{2cm}
@@ -60,6 +62,7 @@
 \usepackage{caption}
 \captionsetup{font=small,labelfont=bf}
 \usepackage{multicol}
+\setlength{\columnsep}{5mm}
 \usepackage{sidecap}
 \usepackage{epstopdf}
 \usepackage[tc]{titlepic}
@@ -71,7 +74,7 @@
     colorlinks=true,
     pdfstartview=FitV,
     linkcolor=my_blue,
-    urlcolor=my_gray,
+    urlcolor=my_blue,
     anchorcolor=my_blue,
     citecolor=my_red,
     colorlinks=true,
@@ -82,9 +85,25 @@
 \usepackage{afterpage}
 \usepackage{etoolbox}
 \usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{tcolorbox}
+\usepackage{tikz}
 
 %------------------------------------------------------------------------
-% \date{}
+%E for even page O for odd page L for left side C for centered R for the right side
+\pagestyle{fancy}
+\fancyhf{}
+% \fancyhead[C]{
+\fancyfoot[C]{
+        \input{./sections/contact_info.tex}
+    }
+% \fancyhead[RE,LO]{Guides and tutorials}
+% \fancyfoot[CE,CO]{\leftmark}
+\fancyhead[L]{\textcolor{my_gray}{\scriptsize page \thepage/\pageref*{LastPage}}}
+\fancyhead[R]{\textcolor{my_gray}{\scriptsize Last update \today}}
+
+%------------------------------------------------------------------------
+\date{}
 
 \pdfinfo{%
     /Title    (CV - Edison Florez)
@@ -109,13 +128,15 @@
 
 %----------------------------------------------------
 \input{./sections/header.tex}
+\input{./sections/contact_info.tex}
 %----------------------------------------------------
+\input{./sections/profile.tex}
+\input{./sections/skills.tex}
 \input{./sections/work.tex}
+\input{./sections/publications.tex}
+\input{./sections/open_source.tex}
 \input{./sections/academic.tex}
 \input{./sections/awards.tex}
-\input{./sections/leadership.tex}
-\input{./sections/publications.tex}
-\input{./sections/reviewer.tex}
 %----------------------------------------------------
 \vfill
 \input{./sections/footer.tex}
