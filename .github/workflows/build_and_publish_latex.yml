@@ -52,7 +52,7 @@ jobs:
         uses: dante-ev/latex-action@latest
         with:
           working_directory:
-          root_file: main.tex
+          root_file: Edison_Florez_CV.tex
           compiler: pdflatex
           args: -interaction=nonstopmode -shell-escape
       # - name: bibtex main
@@ -66,6 +66,6 @@ jobs:
       #   uses: dante-ev/latex-action@latest
       #   with:
       #     working_directory:
-      #     root_file: main.tex
+      #     root_file: Edison_Florez_CV.tex
       #     compiler: pdflatex
       #     args: -interaction=nonstopmode -shell-escape
