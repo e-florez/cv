@@ -1,7 +1,7 @@
 ---
 ---
 
-# Edison**Florez**\
+# Edison**Florez**
 
 Data Scientist \| Computational Biophysicist\
 Scientific Algorithm Developer
@@ -48,7 +48,7 @@ Learning
 - **Computational Protein Designer**[Since Aug.2021](.)\
   HelicoBio \[[helico.bio](www.helico.bio)\], New Zealand
 
-  **Scientific Algorithm developer:** Leverage in-depth knowledge of
+  **Scientific Algorithm developer:** Leveraging in-depth knowledge of
   biophysics and protein design, I created and validated scalable
   algorithms to advance plant biology research. As a team leader, I
   collaborated with cross-functional groups to deliver high-quality,
@@ -89,14 +89,14 @@ Learning
 - **Data Scientist:**[Aug.2016 - Mar.2018](.)\
   EY-ifb \[[ey.com](www.ey.com/en_gl/ey-ifb)\], Colombia.
 
-  **SAP-Implementation and Bank-Analyzer:** Develope tailored
-  solutions based on thorough business and technical analyses,
-  primarily within SAP or Oracle environments for Analytical Banking
-  and Business Intelligence. I specialize in crafting complex models
-  using SAP Bank Analyzer and implementing them, addressing economic
-  problems through customized IT solutions. Additionally, I develop
-  and implement mathematical models related to financial inquiries,
-  providing detail-oriented and pragmatic solutions.
+  **SAP-Implementation and Bank-Analyzer:** Develop tailored solutions
+  based on thorough business and technical analyses, primarily within
+  SAP or Oracle environments for Analytical Banking and Business
+  Intelligence. I specialize in crafting complex models using SAP Bank
+  Analyzer and implementing them, addressing economic problems through
+  customized IT solutions. Additionally, I develop and implement
+  mathematical models related to financial inquiries, providing
+  detail-oriented and pragmatic solutions.
 
 - **Graduate Teaching Assistant:**[Sept.2015 - Aug.2016](.)\
   University of Antioquia \[[udea.edu.co](www.udea.edu.co)\],
@@ -109,7 +109,7 @@ Learning
   their understanding of the interpretation and application of these
   principles in chemically interesting systems.
 
-**Peer--reviewed [Publications](.)**
+**Peer-reviewed [Publications](.)**
 
 - **Flórez, Edison**; Zapata-Escobar, Andy; Ferraro, Franklin;
   Ibarguen-Becerra, César; Chamorro, Yuly; and Maldonado, Alejandro
@@ -200,8 +200,10 @@ Learning
 - **MSc in Chemistry:** Honours and research work with meritorious
   award.
 
-Your sincerely,\
-**Edison Florez**\
-<edisonffh@gmail.com>\
+Yours sincerely,
+
+**Edison Florez**
+
+<edisonffh@gmail.com>
 
 [ ![image](figs/qrcode_github_page.png) ](https://github.com/e-florez/e-florez)
