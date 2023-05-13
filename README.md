@@ -1,9 +1,6 @@
----
----
-
 # Edison**Florez**
 
-Data Scientist \| Computational Biophysicist\
+Data Scientist \| Computational Biophysicist \|
 Scientific Algorithm Developer
 
 <edisonffh@gmail.com> $\bullet$
@@ -115,35 +112,36 @@ Learning
   Ibarguen-Becerra, César; Chamorro, Yuly; and Maldonado, Alejandro
   F._"Coordination of Mercury (II) in Water Promoted over Hydrolysis
   in Solvated Clusters \[Hg(H$_2$O)$_{1-6}$\]$^{2+}_{(aq)}$: Insights
-  from Relativistic Effects and Free Energy Analysis."_
-  [Submitted]{.underline}
+  from Relativistic Effects and Free Energy Analysis."_ [Submitted](.)
 
 - **Flórez, Edison**; Reuvers, Tom; Schwarz, WH Eugen and Peter
   Schwerdtfeger. _"The Stability of the Noble Gas Fluorides from
   Nonrelativistic and Relativistic Density Functional and Coupled
-  Cluster Studies."_ [Submitted]{.underline}
+  Cluster Studies."_ [Submitted](.)
 
 - **Flórez, Edison**; Helgaker, Trygve; Klopper, Wim; Teale, Andrew;
   Stopkowicz, Stella; Pahl, Elke _"Melting of Neon Under Extreme
   Conditions: Ab Initio Monte Carlo Simulations in High Magnetic
-  Fields."_. [Submitted]{.underline}
+  Fields."_. [Submitted](.)
 
 - **Flórez, Edison**; Odile R. Smits; Jan-Michael Mewes; Paul Jerabek;
   and Peter Schwerdtfeger. _"From the gas phase to the solid state:
   The chemical bonding in the superheavy element flerovium."_ The
   Journal of Chemical Physics 157, no. 6 (2022): 064304.[DOI:
-  10.1063/5.0097642]{.underline}
+  10.1063/5.0097642](https://www.doi.org/10.1063/5.0097642)
 
 - Chamorro, Yuly; **Flórez, Edison**; Alejandro F. Maldonado;
   Gustavo A. Aucar; and Albeiro Restrepo. _"Microsolvation of heavy
   halides."_ International Journal of Quantum Chemistry 121, no. 7
-  (2021): e26571. [DOI: 10.1002/qua.26571]{.underline}
+  (2021): e26571. [DOI:
+  10.1002/qua.26571](https://www.doi.org/10.1002/qua.26571)
 
 - **Flórez, Edison**; Alejandro F. Maldonado; Gustavo A. Aucar; Jorge
   David; and Albeiro Restrepo. _"Microsolvation of methylmercury:
   structures, energies, bonding and NMR constants ($^{199}$Hg,
   $^{13}$C and $^{17}$O)."_ Physical Chemistry Chemical Physics 18,
-  no. 3 (2016): 1537-1550. [DOI: 10.1039/c5cp04826e]{.underline}
+  no. 3 (2016): 1537-1550. [DOI:
+  10.1039/c5cp04826e](https://www.doi.org/10.1039/c5cp04826e)
 
 **Open-Source [Contributions](.)**
 
