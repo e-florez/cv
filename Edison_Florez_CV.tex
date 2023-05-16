@@ -89,6 +89,9 @@
 \usepackage{tcolorbox}
 \usepackage{tikz}
 
+% deleting the section number
+\renewcommand\thesection{\hspace*{-5mm}}
+
 %------------------------------------------------------------------------
 %E for even page O for odd page L for left side C for centered R for the right side
 \pagestyle{fancy}
@@ -123,9 +126,7 @@
         )
 }
 
-% \color{my_gray}
 \begin{document}
-
 %----------------------------------------------------
 \input{./sections/title.tex}
 \input{./sections/contact_info.tex}

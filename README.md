@@ -1,22 +1,31 @@
 # Edison**Florez**
 
-Data Scientist \| Computational Biophysicist \| Scientific Algorithm Developer
+Data Scientist \| Computational Biophysicist \|\
+Scientific Algorithm Developer
 
 <edisonffh@gmail.com> $\bullet$
 [github.com/e-florez](https://github.com/e-florez) $\bullet$
 [linkedin.com/in/edisonflorez](https://www.linkedin.com/in/edisonflorez/)
 
-### Profile:
-
-As a data scientist with a profound background in quantum chemistry, biophysics, and mathematics, I bring over eight years of experience to the table, having served as a scientific algorithm developer, data scientist, and team leader.
-
-My passion lies in extracting fundamental insights from data, thinking critically, and understanding the rationale behind each task. With my ability to learn quickly and motivation to take on challenges, I have excelled as an individual contributor, taking calculated risks and showing initiative.
-
-My experience spans consulting for biotech startups and the financial industry, where I develop scientific software, validate scalable HPC algorithms, and work collaboratively to deliver top-quality, data-driven scientific solutions and visualizations.
-
-I have a track record of solving complex problems through algorithm development in research labs in New Zealand, Argentina, and Colombia. In the role of a teacher, I've mentored students in two large universities, simplifying complex scientific concepts, methods, and theories in science, math, and computers.
-
-In my spare time, I enjoy intellectual pursuits like reading, writing, and learning new things. I am also freelance as an editor and reviewer for scientific manuscripts and research for publication.
+**Profile:** As a data scientist with a profound background in quantum
+chemistry, biophysics, and mathematics, I bring over eight years of
+experience to the table, having served as a scientific algorithm
+developer, data scientist, and team leader. My passion lies in
+extracting fundamental insights from data, thinking critically, and
+understanding the rationale behind each task. With my ability to learn
+quickly and motivation to take on challenges, I have excelled as an
+individual contributor, taking calculated risks and showing initiative.
+My experience spans consulting for biotech startups and the financial
+industry, where I develop scientific software, validate scalable HPC
+algorithms, and work collaboratively to deliver top-quality, data-driven
+scientific solutions and visualizations. I have a track record of
+solving complex problems through algorithm development in research labs
+in New Zealand, Argentina, and Colombia. In the role of a teacher, I've
+mentored students in two large universities, simplifying complex
+scientific concepts, methods, and theories in science, math, and
+computers. In my spare time, I enjoy intellectual pursuits like reading,
+writing, and learning new things. I am also freelance as an editor and
+reviewer for scientific manuscripts and research for publication.
 
 [**Key Skills:**](.) Complex problem solving $\bullet$ Critical
 thinking $\bullet$ Creativity $\bullet$ Leadership $\bullet$ Teamwork
@@ -26,29 +35,34 @@ management $\bullet$ Decision making
 [**Technical Skills:**](.) Python $\bullet$ SQL $\bullet$ Git $\bullet$
 TDD $\bullet$ Fortran $\bullet$ openMP $\bullet$ Bash $\bullet$ Linux
 $\bullet$ HPC $\bullet$ LaTeX  $\bullet$ Optimization and Search
-Algorithms $\bullet$ Testing $\bullet$ Deployment $\bullet$ Machine
-Learning
+Algorithms $\bullet$ Testing $\bullet$ CI/CD
 
 ---
 
-**Professional [Experience](.)**
+# Professional [Experience](.)
 
-- **Computational Protein Designer**[Since Aug.2021](.)\
+- **Computational Biophysics**[Since Aug.2021](.)\
   HelicoBio \[[helico.bio](www.helico.bio)\], New Zealand
 
-  **Scientific Algorithm developer:** Leveraging in-depth knowledge of
+  **Computational Protein Designer:** Leveraging in-depth knowledge of
   biophysics and protein design, I created and validated scalable
   algorithms to advance plant biology research. As a team leader, I
   collaborated with cross-functional groups to deliver high-quality,
   data-driven scientific solutions. I contributed to all phases of the
   software development lifecycle, including the development, testing,
-  and deployment of new functionalities. A notable achievement was
-  leading the development of a protein design platform using Python,
-  C++, and GraphQL/SQL.
+  and deployment of new functionalities using Python, C++, and SQL. A
+  notable achievement was leading the development of a protein design
+  platform for running all-atom molecular dynamics simulations. I have
+  direct experience using Molecular Dynamics packages like GROMACS,
+  AMBER and OpenMM, also Alphafold and other bioinformatics tools. I
+  am also proficient in using various computational tools such as
+  virtual screening and docking.
 
 - **Freelancer Editor:**\
-  Enago \[[enago.com](https://www.enago.com/)\] [Since Apr.2023](.)\
-  MDPI \[[mdpi.com](https://www.mdpi.com/)\] [Apr.2018 - Dec.2018](.)\
+  Enago \[[enago.com](https://www.enago.com/)\], Remote [Since
+  Apr.2023](.)\
+  MDPI \[[mdpi.com](https://www.mdpi.com/)\], Remote [Apr.2018 -
+  Dec.2018](.)
 
   **Copy & Substantive Editing:** I perform Copy Editing, refining
   grammar and scientific terminology; and Substantive Editing,
@@ -76,12 +90,11 @@ Learning
 
   **SAP-Implementation and Bank-Analyzer:** Develop tailored solutions
   based on thorough business and technical analyses, primarily within
-  SAP or Oracle environments for Analytical Banking and Business
-  Intelligence. I specialize in crafting complex models using SAP Bank
-  Analyzer and implementing them, addressing economic problems through
-  customized IT solutions. Additionally, I develop and implement
-  mathematical models related to financial inquiries, providing
-  detail-oriented and pragmatic solutions.
+  SAP for Analytical Banking and Business Intelligence. I specialize
+  in crafting complex models and implementing them, addressing
+  economic problems through customized solutions. Additionally, I
+  developed and implemented mathematical models related to financial
+  inquiries, providing detail-oriented and pragmatic solutions.
 
 - **Graduate Teaching Assistant:**[Sept.2015 - Aug.2016](.)\
   University of Antioquia \[[udea.edu.co](www.udea.edu.co)\],
@@ -94,12 +107,12 @@ Learning
   their understanding of the interpretation and application of these
   principles in chemically interesting systems.
 
-**Peer-reviewed [Publications](.)**
+# Peer-reviewed [Publications](.)
 
 - **Flórez, Edison**; Zapata-Escobar, Andy; Ferraro, Franklin;
   Ibarguen-Becerra, César; Chamorro, Yuly; and Maldonado, Alejandro F.
   "Coordination of Mercury (II) in Water Promoted over Hydrolysis in
-  Solvated Clusters [Hg(H$_2$O)$_{1-6}$]$^{2+}_{(aq)}$: Insights
+  Solvated Clusters \[Hg(H$_2$O)$_{1-6}$\]$^{2+}_{(aq)}$: Insights
   from Relativistic Effects and Free Energy Analysis." [Submitted](.)
 
 - **Flórez, Edison**; Reuvers, Tom; Schwarz, WH Eugen and Peter
@@ -126,13 +139,13 @@ Learning
   3 (2016): 1537-1550. [DOI:
   10.1039/c5cp04826e](https://www.doi.org/10.1039/c5cp04826e)
 
-**Open-Source [Contributions](.)**
+# Open-Source [Contributions](.)
 
 - **Parallel Tempering Monte Carlo (PTMC):** This project introduces
   an advanced Fortran (2003) code that uses the Parallel Tempering
   Monte Carlo (PTMC) method for an accurate and efficient analysis of
-  phase transitions in atomic and molecular clusters. Code available on
-  [github.com/e-florez/PTMC](https://github.com/e-florez/PTMC)
+  phase transitions in atomic and molecular clusters. Code available
+  on [github.com/e-florez/PTMC](https://github.com/e-florez/PTMC)
 
 - **Atomic and Molecular Cluster Energy Surface Sampler (AMCESS):** An
   open-source Python package that automates the exploration of the
@@ -149,7 +162,7 @@ Learning
   and interactions. Code available on
   [github.com/e-florez/pyCC](https://github.com/e-florez/pyCC)
 
-**Academic [Background](.)**
+# Academic [Background](.)
 
 - **Doctor of Philosophy** (Candidate) [December 2022](.)\
   Computational Physics, Massey University, New Zealand
@@ -160,7 +173,7 @@ Learning
 - **Bachelor of Science** [July 2012](.)\
   Computational Chemistry, University of Antioquia, Colombia
 
-**Fellowships [and Awards](.)**
+# Fellowships [and Awards](.)
 
 - **PhD in Physics:** Massey University Doctoral Scholarship
   (full-time) 2018, 2019, 2020
