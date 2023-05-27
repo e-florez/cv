@@ -125,7 +125,7 @@ LaTeX  $\bullet$ Optimization and Search Algorithms
 - **Flórez, Edison**; Zapata-Escobar, Andy; Ferraro, Franklin;
   Ibarguen-Becerra, César; Chamorro, Yuly; and Maldonado, Alejandro F.
   "Coordination of Mercury (II) in Water Promoted over Hydrolysis in
-  Solvated Clusters \[Hg(H$_2$O)$_{1-6}$\]$^{2+}_{(aq)}$: Insights
+  Solvated Clusters [Hg(H$_2$O)$_{1-6}$]$^{2+}_{(aq)}$: Insights
   from Relativistic Effects and Free Energy Analysis." [Submitted](.)
 
 - **Flórez, Edison**; Reuvers, Tom; Schwarz, WH Eugen and Peter
@@ -185,7 +185,7 @@ LaTeX  $\bullet$ Optimization and Search Algorithms
 
 - Co-supervisor MSc thesis, computational chemistry:[Apr.2018 -
   Feb.2020](.)\
-  **Microsolvation of Heavy Halides \[X(H2O)$_{1-6}$\]$^-$ (X = Br, I,
+  **Microsolvation of Heavy Halides [X(H2O)$_{1-6}$]$^-$ (X = Br, I,
   At)**\
   University of Antioquia \[[udea.edu.co](www.udea.edu.co)\],
   Colombia.
