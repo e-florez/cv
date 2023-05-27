@@ -1,6 +1,6 @@
 # Edison**Florez**
 
-Data Scientist \| Computational Biophysicist \|\
+Data Scientist \| Computational Physicist \|\
 Scientific Algorithm Developer
 
 <edisonffh@gmail.com> $\bullet$
@@ -33,30 +33,32 @@ $\bullet$ Project Management $\bullet$ Communication $\bullet$ Time
 management $\bullet$ Decision making
 
 [**Technical Skills:**](.) Python $\bullet$ SQL $\bullet$ Git $\bullet$
-TDD $\bullet$ Fortran $\bullet$ openMP $\bullet$ Bash $\bullet$ Linux
-$\bullet$ HPC $\bullet$ LaTeX  $\bullet$ Optimization and Search
-Algorithms $\bullet$ Testing $\bullet$ CI/CD
+Testing $\bullet$ CI/CD $\bullet$ TDD $\bullet$ C++ $\bullet$ Fortran
+$\bullet$ openMP $\bullet$ Bash $\bullet$ Linux $\bullet$ HPC $\bullet$
+LaTeX  $\bullet$ Optimization and Search Algorithms
 
 ---
 
 # Professional [Experience](.)
 
-- **Computational Biophysics**[Since Aug.2021](.)\
+- **Computational Physics**[Since Aug.2021](.)\
   HelicoBio \[[helico.bio](www.helico.bio)\], New Zealand
 
-  **Computational Protein Designer:** Leveraging in-depth knowledge of
-  biophysics and protein design, I created and validated scalable
-  algorithms to advance plant biology research. As a team leader, I
-  collaborated with cross-functional groups to deliver high-quality,
-  data-driven scientific solutions. I contributed to all phases of the
-  software development lifecycle, including the development, testing,
-  and deployment of new functionalities using Python, C++, and SQL. A
-  notable achievement was leading the development of a protein design
-  platform for running all-atom molecular dynamics simulations. I have
-  direct experience using Molecular Dynamics packages like GROMACS,
-  AMBER and OpenMM, also Alphafold and other bioinformatics tools. I
-  am also proficient in using various computational tools such as
-  virtual screening and docking.
+  **Computational Protein Designer:** as a `TEAM LEADER`, my primary
+  focus is driving software solutions in the field of plant biology
+  research. My commitment to quality and scientific excellence has
+  enabled the team's progress through all stages of the software
+  development lifecycle, from design and development to testing and
+  deployment. One of my key achievements as a team leader is
+  successfully leading the creation of a novel protein design platform
+  for running comprehensive all-atom molecular dynamics simulations.
+  As a `DEVELOPER`, my expertise in biophysics and protein design is
+  reflected in my development role, where I create and validate
+  scalable algorithms that propel our research forward. My proficiency
+  with Python, C++, and SQL has been instrumental in developing new
+  functionalities and ensuring their seamless deployment. I have also
+  utilized and demonstrated in-depth knowledge of various molecular
+  dynamics packages, including GROMACS, AMBER, and OpenMM.
 
 - **Freelancer Editor:**\
   Enago \[[enago.com](https://www.enago.com/)\], Remote [Since
@@ -85,6 +87,17 @@ Algorithms $\bullet$ Testing $\bullet$ CI/CD
   enhancing students' understanding of these complex physical concepts
   and principles.
 
+- **Course Developer:**[Apr.2018 - Dec.2019](.)\
+  A&E International \[[naeaedu.com](www.naeaedu.com)\], New Zealand
+
+  **Lesson Planner and Tutor:** Develop comprehensive STEM teaching
+  content in alignment with the New Zealand Curriculum. I meticulously
+  prepare course materials for new classes, both for in-person and
+  online learning environments. Additionally, I guide and mentor
+  students to comprehend and execute relevant STEM projects and
+  workshops, fostering their understanding and application of STEM
+  principles in practical scenarios.
+
 - **Data Scientist:**[Aug.2016 - Mar.2018](.)\
   EY-ifb \[[ey.com](www.ey.com/en_gl/ey-ifb)\], Colombia.
 
@@ -107,7 +120,7 @@ Algorithms $\bullet$ Testing $\bullet$ CI/CD
   their understanding of the interpretation and application of these
   principles in chemically interesting systems.
 
-# Peer-reviewed [Publications](.)
+# Publi[cations](.)
 
 - **Flórez, Edison**; Zapata-Escobar, Andy; Ferraro, Franklin;
   Ibarguen-Becerra, César; Chamorro, Yuly; and Maldonado, Alejandro F.
@@ -131,6 +144,12 @@ Algorithms $\bullet$ Testing $\bullet$ CI/CD
   halides." International Journal of Quantum Chemistry 121, no. 7
   (2021): e26571. [DOI:
   10.1002/qua.26571](https://www.doi.org/10.1002/qua.26571)
+
+- **Flórez, Edison**; Helgaker, Trygve; Klopper, Wim; Teale, Andrew;
+  Stopkowicz, Stella; and Pahl, Elke. "Melting Under Extreme
+  Conditions: Ab Initio Monte Carlo Simulations." In APS March Meeting
+  Abstracts, vol. 2019, pp. C17-001. 2019.
+  [ui.adsabs.harvard.edu/abs/2019APS..MARC17001F](https://ui.adsabs.harvard.edu/abs/2019APS..MARC17001F/abstract)
 
 - **Flórez, Edison**; Alejandro F. Maldonado; Gustavo A. Aucar; Jorge
   David; and Albeiro Restrepo. "Microsolvation of methylmercury:
@@ -161,6 +180,23 @@ Algorithms $\bullet$ Testing $\bullet$ CI/CD
   facilitating a deeper understanding of their intrinsic properties
   and interactions. Code available on
   [github.com/e-florez/pyCC](https://github.com/e-florez/pyCC)
+
+# Super[visions](.)
+
+- Co-supervisor MSc thesis, computational chemistry:[Apr.2018 -
+  Feb.2020](.)\
+  **Microsolvation of Heavy Halides \[X(H2O)$_{1-6}$\]$^-$ (X = Br, I,
+  At)**\
+  University of Antioquia \[[udea.edu.co](www.udea.edu.co)\],
+  Colombia.
+
+- Co-supervisor BSc thesis, computational chemistry:[Nov.2015 -
+  Dec.2017](.)\
+  **Relativistic and Electron Correlation Effects on the Calculation
+  of Nuclear Magnetic Resonance Parameters on MX Diatomic Molecules
+  (M=Cu, Ag, Au and X=F, Cl, Br, I)**\
+  University of Antioquia \[[udea.edu.co](www.udea.edu.co)\],
+  Colombia.
 
 # Academic [Background](.)
 
