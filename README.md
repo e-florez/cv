@@ -171,10 +171,7 @@ LaTeX  $\bullet$ Optimization and Search Algorithms
 
 - **Flórez, Edison**; Alejandro F. Maldonado; Gustavo A. Aucar; Jorge
   David; and Albeiro Restrepo. "Microsolvation of methylmercury:
-  structures, energies, bonding and NMR constants
-  <!--($^{199}\text{Hg, }^{13}\text{C and }^{17}\text{O}$)-->(<sup>199</sup>Hg, <sup>13</sup>C and <sup>17</sup>O)." Physical
-  Chemistry Chemical Physics 18, no. 3 (2016): 1537-1550. [DOI:
-  10.1039/c5cp04826e](https://www.doi.org/10.1039/c5cp04826e)
+  structures, energies, bonding and NMR constants <!--($^{199}\text{Hg, }^{13}\text{C and }^{17}\text{O}$)-->(<sup>199</sup>Hg, <sup>13</sup>C and <sup>17</sup>O)." Physical Chemistry Chemical Physics 18, no. 3 (2016): 1537-1550. [DOI: 10.1039/c5cp04826e](https://www.doi.org/10.1039/c5cp04826e)
 
 # Open-Source [Contributions](.)
 
