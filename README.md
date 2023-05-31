@@ -39,9 +39,28 @@ LaTeX  $\bullet$ Optimization and Search Algorithms
 
 ---
 
+# Academic [Background](.)
+
+- **Doctor of Philosophy** (Candidate) [February 2023](.)\
+  Computational Physics, Massey University, New Zealand
+
+- **Master of Science** [December 2014](.)\
+  Computational Chemistry, University of Antioquia, Colombia
+
+- **Bachelor of Science** [July 2012](.)\
+  Computational Chemistry, University of Antioquia, Colombia
+
+# Fellowships [and Awards](.)
+
+- **PhD in Physics:** Massey University Doctoral Scholarship
+  (full-time) 2018, 2019, 2020
+
+- **MSc in Chemistry:** Honours and research work with meritorious
+  award.
+
 # Professional [Experience](.)
 
-- **Computational Physics**[Since Aug.2021](.)\
+- **Computational Physics**[Aug.2021 - Apr 2022](.)\
   HelicoBio \[[helico.bio](www.helico.bio)\], New Zealand
 
   **Computational Protein Designer:** as a `TEAM LEADER`, my primary
@@ -125,8 +144,9 @@ LaTeX  $\bullet$ Optimization and Search Algorithms
 - **Flórez, Edison**; Zapata-Escobar, Andy; Ferraro, Franklin;
   Ibarguen-Becerra, César; Chamorro, Yuly; and Maldonado, Alejandro F.
   "Coordination of Mercury (II) in Water Promoted over Hydrolysis in
-  Solvated Clusters [Hg(H$_2$O)$_{1-6}$]$^{2+}_{(aq)}$: Insights
-  from Relativistic Effects and Free Energy Analysis." [Submitted](.)
+  Solvated Clusters
+  $\text{[Hg(H}_2\text{O)}_{1-6}\text{]}^{2+}_{(aq)}$: Insights from
+  Relativistic Effects and Free Energy Analysis." [Submitted](.)
 
 - **Flórez, Edison**; Reuvers, Tom; Schwarz, WH Eugen and Peter
   Schwerdtfeger."The Stability of the Noble Gas Fluorides from
@@ -153,9 +173,9 @@ LaTeX  $\bullet$ Optimization and Search Algorithms
 
 - **Flórez, Edison**; Alejandro F. Maldonado; Gustavo A. Aucar; Jorge
   David; and Albeiro Restrepo. "Microsolvation of methylmercury:
-  structures, energies, bonding and NMR constants ($^{199}$Hg,
-  $^{13}$C and $^{17}$O)." Physical Chemistry Chemical Physics 18, no.
-  3 (2016): 1537-1550. [DOI:
+  structures, energies, bonding and NMR constants
+  ($^{199}\text{Hg, }^{13}\text{C and }^{17}\text{O)}$." Physical
+  Chemistry Chemical Physics 18, no. 3 (2016): 1537-1550. [DOI:
   10.1039/c5cp04826e](https://www.doi.org/10.1039/c5cp04826e)
 
 # Open-Source [Contributions](.)
@@ -185,7 +205,7 @@ LaTeX  $\bullet$ Optimization and Search Algorithms
 
 - Co-supervisor MSc thesis, computational chemistry:[Apr.2018 -
   Feb.2020](.)\
-  **Microsolvation of Heavy Halides [X(H2O)$_{1-6}$]$^-$ (X = Br, I,
+  **Microsolvation of Heavy Halides \[X(H2O)$_{1-6}$\]$^-$ (X = Br, I,
   At)**\
   University of Antioquia \[[udea.edu.co](www.udea.edu.co)\],
   Colombia.
@@ -197,25 +217,6 @@ LaTeX  $\bullet$ Optimization and Search Algorithms
   (M=Cu, Ag, Au and X=F, Cl, Br, I)**\
   University of Antioquia \[[udea.edu.co](www.udea.edu.co)\],
   Colombia.
-
-# Academic [Background](.)
-
-- **Doctor of Philosophy** (Candidate) [December 2022](.)\
-  Computational Physics, Massey University, New Zealand
-
-- **Master of Science** [December 2014](.)\
-  Computational Chemistry, University of Antioquia, Colombia
-
-- **Bachelor of Science** [July 2012](.)\
-  Computational Chemistry, University of Antioquia, Colombia
-
-# Fellowships [and Awards](.)
-
-- **PhD in Physics:** Massey University Doctoral Scholarship
-  (full-time) 2018, 2019, 2020
-
-- **MSc in Chemistry:** Honours and research work with meritorious
-  award.
 
 Yours sincerely,
 
