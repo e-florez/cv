@@ -30,12 +30,12 @@ reviewer for scientific manuscripts and research for publication.
 [**Key Skills:**](.) Complex problem solving $\bullet$ Critical
 thinking $\bullet$ Creativity $\bullet$ Leadership $\bullet$ Teamwork
 $\bullet$ Project Management $\bullet$ Communication $\bullet$ Time
-management $\bullet$ Decision making
+management
 
-[**Technical Skills:**](.) Python $\bullet$ SQL $\bullet$ Git $\bullet$
-Testing $\bullet$ CI/CD $\bullet$ TDD $\bullet$ C++ $\bullet$ Fortran
-$\bullet$ openMP $\bullet$ Bash $\bullet$ Linux $\bullet$ HPC $\bullet$
-LaTeX  $\bullet$ Optimization and Search Algorithms
+[**Technical Skills:**](.) Python $\bullet$ C++ $\bullet$ Fortran
+$\bullet$ SQL/NoSQL $\bullet$ Linux $\bullet$ Bash $\bullet$ OpenMP
+$\bullet$ HPC $\bullet$ Git $\bullet$ Testing/TDD $\bullet$ CI/CD
+$\bullet$ Docker $\bullet$ LaTeX  $\bullet$ Optimization
 
 ---
 
@@ -48,7 +48,7 @@ LaTeX  $\bullet$ Optimization and Search Algorithms
   Computational Chemistry, University of Antioquia, Colombia
 
 - **Bachelor of Science** [July 2012](.)\
-  Computational Chemistry, University of Antioquia, Colombia
+  Chemistry, University of Antioquia, Colombia
 
 # Fellowships [and Awards](.)
 
@@ -144,7 +144,9 @@ LaTeX  $\bullet$ Optimization and Search Algorithms
 - **Flórez, Edison**; Zapata-Escobar, Andy; Ferraro, Franklin;
   Ibarguen-Becerra, César; Chamorro, Yuly; and Maldonado, Alejandro F.
   "Coordination of Mercury (II) in Water Promoted over Hydrolysis in
-  Solvated Clusters <!-- $\text{[Hg(H}_2\text{O)}_{1-6}\text{]}^{2+}_{(aq)}$ --> [Hg(H<sub>2</sub>O)<sub>1 − 6</sub>]<sup>+2</sup><sub>(aq)</sub>: Insights from Relativistic Effects and Free Energy Analysis." [Submitted](.)
+  Solvated Clusters
+  [Hg(H<sub>2</sub>O)<sub>1-6</sub>]<sup>2+</sup><sub>(aq)</sub>: Insights from
+  Relativistic Effects and Free Energy Analysis." [Submitted](.)
 
 - **Flórez, Edison**; Reuvers, Tom; Schwarz, WH Eugen and Peter
   Schwerdtfeger."The Stability of the Noble Gas Fluorides from
@@ -171,7 +173,10 @@ LaTeX  $\bullet$ Optimization and Search Algorithms
 
 - **Flórez, Edison**; Alejandro F. Maldonado; Gustavo A. Aucar; Jorge
   David; and Albeiro Restrepo. "Microsolvation of methylmercury:
-  structures, energies, bonding and NMR constants <!--($^{199}\text{Hg, }^{13}\text{C and }^{17}\text{O}$)-->(<sup>199</sup>Hg, <sup>13</sup>C and <sup>17</sup>O)." Physical Chemistry Chemical Physics 18, no. 3 (2016): 1537-1550. [DOI: 10.1039/c5cp04826e](https://www.doi.org/10.1039/c5cp04826e)
+  structures, energies, bonding and NMR constants
+  (<sup>199</sup>Hg, <sup>13</sup>C and <sup>17</sup>O)." Physical
+  Chemistry Chemical Physics 18, no. 3 (2016): 1537-1550. [DOI:
+  10.1039/c5cp04826e](https://www.doi.org/10.1039/c5cp04826e)
 
 # Open-Source [Contributions](.)
 
@@ -200,8 +205,8 @@ LaTeX  $\bullet$ Optimization and Search Algorithms
 
 - Co-supervisor MSc thesis, computational chemistry:[Apr.2018 -
   Feb.2020](.)\
-  **Microsolvation of Heavy Halides \[X(H2O)$_{1-6}$\]$^-$ (X = Br, I,
-  At)**\
+  **Microsolvation of Heavy Halides [X(H<sub>2</sub>O)<sub>1-6</sub>]<sup>-</sup> (X = Br,
+  I, At)**\
   University of Antioquia \[[udea.edu.co](www.udea.edu.co)\],
   Colombia.
 
