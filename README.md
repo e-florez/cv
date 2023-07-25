@@ -1,4 +1,4 @@
-# Edison**Florez**
+# Edison **Florez** Ph.D., M.Sc.
 
 Data Scientist \| Computational Physicist \|\
 Scientific Algorithm Developer
@@ -6,6 +6,8 @@ Scientific Algorithm Developer
 <edisonffh@gmail.com> $\bullet$
 [github.com/e-florez](https://github.com/e-florez) $\bullet$
 [linkedin.com/in/edisonflorez](https://www.linkedin.com/in/edisonflorez/)
+
+[(+57) 300 929 4080](.) $\bullet$ [Medellin, Colombia](.)
 
 **Profile:** As a data scientist with a profound background in quantum
 chemistry, biophysics, and mathematics, I bring over eight years of
@@ -41,7 +43,7 @@ $\bullet$ Docker $\bullet$ LaTeX  $\bullet$ Optimization
 
 # Academic [Background](.)
 
-- **Doctor of Philosophy** (Candidate) [February 2023](.)\
+- **Doctor of Philosophy** [February 2023](.)\
   Computational Physics, Massey University, New Zealand
 
 - **Master of Science** [December 2014](.)\
@@ -60,7 +62,7 @@ $\bullet$ Docker $\bullet$ LaTeX  $\bullet$ Optimization
 
 # Professional [Experience](.)
 
-- **Computational Physics**[Aug.2021 - Apr 2022](.)\
+- **Computational Physics**[Aug.2021 - Aug 2022](.)\
   HelicoBio \[[helico.bio](www.helico.bio)\], New Zealand
 
   **Computational Protein Designer:** as a `TEAM LEADER`, my primary
@@ -141,42 +143,18 @@ $\bullet$ Docker $\bullet$ LaTeX  $\bullet$ Optimization
 
 # Publi[cations](.)
 
-- **Flórez, Edison**; Zapata-Escobar, Andy; Ferraro, Franklin;
-  Ibarguen-Becerra, César; Chamorro, Yuly; and Maldonado, Alejandro F.
-  "Coordination of Mercury (II) in Water Promoted over Hydrolysis in
-  Solvated Clusters
-  [Hg(H<sub>2</sub>O)<sub>1-6</sub>]<sup>2+</sup><sub>(aq)</sub>: Insights from
-  Relativistic Effects and Free Energy Analysis." [Submitted](.)
+- **Flórez, Edison**; Zapata-Escobar, Andy; Ferraro, Franklin; Ibarguen-Becerra, César; Chamorro, Yuly; and Maldonado, Alejandro F. "Coordination of Mercury (II) in Water Promoted over Hydrolysis in Solvated Clusters [Hg(H<sub>2</sub>O)<sub>1-6</sub>]<sup>2+</sup><sub>(aq)</sub>: Insights from Relativistic Effects and Free Energy Analysis." [Accepted JPCA](.)
 
-- **Flórez, Edison**; Reuvers, Tom; Schwarz, WH Eugen and Peter
-  Schwerdtfeger."The Stability of the Noble Gas Fluorides from
-  Nonrelativistic and Relativistic Density Functional and Coupled
-  Cluster Studies." [Submitted](.)
+- **Flórez, Edison**; Reuvers, Tom; Schwarz, WH Eugen and Peter Schwerdtfeger."The Stability of the Noble Gas Fluorides from Nonrelativistic and Relativistic Density Functional and Coupled Cluster Studies." [Submitted](.)
 
-- **Flórez, Edison**; Odile R. Smits; Jan-Michael Mewes; Paul Jerabek;
-  and Peter Schwerdtfeger. "From the gas phase to the solid state: The
-  chemical bonding in the superheavy element flerovium." The Journal
-  of Chemical Physics 157, no. 6 (2022): 064304.[DOI:
-  10.1063/5.0097642](https://www.doi.org/10.1063/5.0097642)
+- **Flórez, Edison**; Odile R. Smits; Jan-Michael Mewes; Paul Jerabek; and Peter Schwerdtfeger. "From the gas phase to the solid state: The chemical bonding in the superheavy element flerovium." The Journal of Chemical Physics 157, no. 6 (2022): 064304.[DOI: 10.1063/5.0097642](https://www.doi.org/10.1063/5.0097642)
 
-- Chamorro, Yuly; **Flórez, Edison**; Alejandro F. Maldonado;
-  Gustavo A. Aucar; and Albeiro Restrepo. "Microsolvation of heavy
-  halides." International Journal of Quantum Chemistry 121, no. 7
-  (2021): e26571. [DOI:
-  10.1002/qua.26571](https://www.doi.org/10.1002/qua.26571)
+- Chamorro, Yuly; **Flórez, Edison**; Alejandro F. Maldonado; Gustavo A. Aucar; and Albeiro Restrepo. "Microsolvation of heavy halides." International Journal of Quantum Chemistry 121, no. 7 (2021): e26571. [DOI: 10.1002/qua.26571](https://www.doi.org/10.1002/qua.26571)
 
-- **Flórez, Edison**; Helgaker, Trygve; Klopper, Wim; Teale, Andrew;
-  Stopkowicz, Stella; and Pahl, Elke. "Melting Under Extreme
-  Conditions: Ab Initio Monte Carlo Simulations." In APS March Meeting
-  Abstracts, vol. 2019, pp. C17-001. 2019.
+- **Flórez, Edison**; Helgaker, Trygve; Klopper, Wim; Teale, Andrew; Stopkowicz, Stella; and Pahl, Elke. "Melting Under Extreme Conditions: Ab Initio Monte Carlo Simulations." In APS March Meeting Abstracts, vol. 2019, pp. C17-001. 2019.
   [ui.adsabs.harvard.edu/abs/2019APS..MARC17001F](https://ui.adsabs.harvard.edu/abs/2019APS..MARC17001F/abstract)
 
-- **Flórez, Edison**; Alejandro F. Maldonado; Gustavo A. Aucar; Jorge
-  David; and Albeiro Restrepo. "Microsolvation of methylmercury:
-  structures, energies, bonding and NMR constants
-  (<sup>199</sup>Hg, <sup>13</sup>C and <sup>17</sup>O)." Physical
-  Chemistry Chemical Physics 18, no. 3 (2016): 1537-1550. [DOI:
-  10.1039/c5cp04826e](https://www.doi.org/10.1039/c5cp04826e)
+- **Flórez, Edison**; Alejandro F. Maldonado; Gustavo A. Aucar; Jorge David; and Albeiro Restrepo. "Microsolvation of methylmercury: structures, energies, bonding and NMR constants (<sup>199</sup>Hg, <sup>13</sup>C and <sup>17</sup>O)." Physical Chemistry Chemical Physics 18, no. 3 (2016): 1537-1550. [DOI: 10.1039/c5cp04826e](https://www.doi.org/10.1039/c5cp04826e)
 
 # Open-Source [Contributions](.)
 
@@ -192,7 +170,7 @@ $\bullet$ Docker $\bullet$ LaTeX  $\bullet$ Optimization
   AMCESS uses advanced optimization techniques to generate candidate
   structures for critical points on the PES, enhancing research
   accuracy and efficiency. Code available on
-  [gitlab.com/ADanianZE/amcess](https://gitlab.com/ADanianZE/amcess)
+  [github.com/e-florez/amcess](https://github.com/e-florez/amcess)
 
 - **Cluster Compare (pyCC):** Python project designed to analyze and
   compare atomic and molecular clusters. The main script is created to
@@ -205,7 +183,7 @@ $\bullet$ Docker $\bullet$ LaTeX  $\bullet$ Optimization
 
 - Co-supervisor MSc thesis, computational chemistry:[Apr.2018 -
   Feb.2020](.)\
-  **Microsolvation of Heavy Halides [X(H<sub>2</sub>O)<sub>1-6</sub>]<sup>-</sup> (X = Br,
+  **Microsolvation of Heavy Halides \[X(H$_2$O)$_{1-6}$\]$^-$ (X = Br,
   I, At)**\
   University of Antioquia \[[udea.edu.co](www.udea.edu.co)\],
   Colombia.
