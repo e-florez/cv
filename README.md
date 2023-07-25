@@ -81,7 +81,7 @@ $\bullet$ Docker $\bullet$ LaTeX  $\bullet$ Optimization
   utilized and demonstrated in-depth knowledge of various molecular
   dynamics packages, including GROMACS, AMBER, and OpenMM.
 
-- **Freelancer Editor:**\
+- **Freelancer Editor**\
   Enago \[[enago.com](https://www.enago.com/)\], Remote [Since
   Apr.2023](.)\
   MDPI \[[mdpi.com](https://www.mdpi.com/)\], Remote [Apr.2018 -
@@ -98,7 +98,7 @@ $\bullet$ Docker $\bullet$ LaTeX  $\bullet$ Optimization
   and monitoring the writing and editing activities to ensure that the
   content is understandable and relies on accurate facts.
 
-- **Demonstrator:** [Aug.2018 - Mar.2020](.)\
+- **Demonstrator** [Aug.2018 - Mar.2020](.)\
   Massey University \[[massey.ac.nz](www.massey.ac.nz)\], New Zealand
 
   **Physics:** Instruct and advise students in workshops, with an
@@ -108,7 +108,7 @@ $\bullet$ Docker $\bullet$ LaTeX  $\bullet$ Optimization
   enhancing students' understanding of these complex physical concepts
   and principles.
 
-- **Course Developer:**[Apr.2018 - Dec.2019](.)\
+- **Course Developer**[Apr.2018 - Dec.2019](.)\
   A&E International \[[naeaedu.com](www.naeaedu.com)\], New Zealand
 
   **Lesson Planner and Tutor:** Develop comprehensive STEM teaching
@@ -119,7 +119,7 @@ $\bullet$ Docker $\bullet$ LaTeX  $\bullet$ Optimization
   workshops, fostering their understanding and application of STEM
   principles in practical scenarios.
 
-- **Data Scientist:**[Aug.2016 - Mar.2018](.)\
+- **Data Scientist**[Aug.2016 - Mar.2018](.)\
   EY-ifb \[[ey.com](www.ey.com/en_gl/ey-ifb)\], Colombia.
 
   **SAP-Implementation and Bank-Analyzer:** Develop tailored solutions
@@ -130,7 +130,7 @@ $\bullet$ Docker $\bullet$ LaTeX  $\bullet$ Optimization
   developed and implemented mathematical models related to financial
   inquiries, providing detail-oriented and pragmatic solutions.
 
-- **Graduate Teaching Assistant:**[Sept.2015 - Aug.2016](.)\
+- **Graduate Teaching Assistant**[Sept.2015 - Aug.2016](.)\
   University of Antioquia \[[udea.edu.co](www.udea.edu.co)\],
   Colombia.
 
