@@ -7,8 +7,6 @@ Scientific Algorithm Developer
 [github.com/e-florez](https://github.com/e-florez) $\bullet$
 [linkedin.com/in/edisonflorez](https://www.linkedin.com/in/edisonflorez/)
 
-[(+57) 300 929 4080](.) $\bullet$ [Medellin, Colombia](.)
-
 **Profile:** As a data scientist with a profound background in quantum
 chemistry, biophysics, and mathematics, I bring over eight years of
 experience to the table, having served as a scientific algorithm
