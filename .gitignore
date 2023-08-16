@@ -3,6 +3,7 @@
 sections/contact_info_col.tex
 sections/contact_info_nz.tex
 simple_nz_cv/
+reviews/
 
 ## Core latex/pdflatex auxiliary files (https://github.com/github/gitignore/blob/master/TeX.gitignore)
 *.aux
