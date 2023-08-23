@@ -43,8 +43,9 @@ although not all simultaneously.
   biophysics and protein design, I created and validated scalable
   pipelines to advance plant biology research. As a `DATA SCIENTIST`,
   I collaborated with cross-functional groups to deliver high-quality,
-  data-driven solutions. I contributed to all phases of the software
-  development lifecycle, data extraction, cleaning and analysis,
+  data-driven solutions. My role involves collecting and preparing
+  data, finding insights, and creating easy-to-understand visuals. I
+  contributed to all phases of the software development lifecycle
   including the development, testing, and deployment of new
   functionalities using Python and C++. A notable achievement was
   leading the development of a pipeline, a protein design platform
@@ -145,8 +146,8 @@ although not all simultaneously.
    [ui.adsabs.harvard.edu/abs/2019APS..MARC17001F](https://ui.adsabs.harvard.edu/abs/2019APS..MARC17001F/abstract)
 
 6. **Flórez, Edison**; Alejandro F. Maldonado; Gustavo A. Aucar; Jorge David; and Albeiro Restrepo. "Microsolvation of methylmercury: structures, energies, bonding and NMR constants (<sup>199</sup>Hg, <sup>13</sup>C and <sup>17</sup>O)." Physical Chemistry Chemical Physics 18, no. 3 (2016): 1537-1550. [DOI: 10.1039/c5cp04826e](https://www.doi.org/10.1039/c5cp04826e)
-
-# Super[visions](.)
+   Super[visions](.)
+   =================
 
 - Co-supervisor M.Sc. thesis, computational chemistry[Apr.2018 -
   Feb.2020](.)\
