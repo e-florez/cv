@@ -1,7 +1,6 @@
 # Edison **Florez** Ph.D., M.Sc.
 
-Computational Physicist \| Algorithm Developer\
-Data Scientist \| Business Analyst\
+Data Scientist \| Business Analyst \| Computational Physicist
 
 <edisonffh@gmail.com> $\bullet$
 [github.com/e-florez](https://github.com/e-florez) $\bullet$
@@ -114,6 +113,8 @@ all simultaneously.
 
 # Publi[cations](.)
 
+# Publi[cations](.)
+
 1. **Flórez, Edison**; Zapata-Escobar, Andy; Ferraro, Franklin; Ibarguen-Becerra, César; Chamorro, Yuly; and Maldonado, Alejandro F. "Coordination of Mercury (II) in Water Promoted over Hydrolysis in Solvated Clusters [Hg(H<sub>2</sub>O)<sub>1-6</sub>]<sup>2+</sup><sub>(aq)</sub>: Insights from Relativistic Effects and Free Energy Analysis." [Accepted Accepted by The Journal of Physical Chemistry A](.)
 
 2. **Flórez, Edison**; Reuvers, Tom; Schwarz, WH Eugen and Peter Schwerdtfeger."The Stability of the Noble Gas Fluorides from Nonrelativistic and Relativistic Density Functional and Coupled Cluster Studies." [Submitted](.)
@@ -152,13 +153,7 @@ all simultaneously.
   University of Antioquia \[[udea.edu.co](www.udea.edu.co)\],
   Colombia.
 
-- Co-supervisor B.Sc. thesis, computational chemistry[Nov.2015 -
-  Dec.2017](.)\
-  **Relativistic and Electron Correlation Effects on the Calculation
-  of Nuclear Magnetic Resonance Parameters on MX Diatomic Molecules
-  (M=Cu, Ag, Au and X=F, Cl, Br, I)**\
-  University of Antioquia \[[udea.edu.co](www.udea.edu.co)\],
-  Colombia.
+References available upon request
 
 ---\
 Yours sincerely,
