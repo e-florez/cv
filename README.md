@@ -1,4 +1,4 @@
-# Edison**Florez** Ph.D., M.Sc.
+# Edison**Florez**
 
 Data Scientist \| Business Analyst \| Computational Physicist
 
@@ -7,7 +7,7 @@ Data Scientist \| Business Analyst \| Computational Physicist
 
 ---
 
-[**Technical Skills:**](.) Python $\bullet$ C++ $\bullet$ Fortran
+[**Technical Skills:**](.) Python $\bullet$ C/C++ $\bullet$ Fortran
 $\bullet$ Data Base (SQL/NoSQL) $\bullet$ Git $\bullet$ Docker $\bullet$
 AWS $\bullet$ Power BI $\bullet$ Tableau $\bullet$ Linux $\bullet$ Bash
 $\bullet$ OpenMP $\bullet$ HPC $\bullet$ Testing/TDD $\bullet$ CI/CD
@@ -37,12 +37,11 @@ enthusiast, although not all simultaneously.
 
   COMPUTATIONAL PROTEIN DESIGNER: Leveraging in-depth knowledge of
   biophysics and protein design, I created and validated scalable
-  pipelines to advance plant biology research. As a Data Scientist, I
-  collaborated with cross-functional groups to deliver high-quality,
-  data-driven solutions. I contributed to all phases of the software
-  development lifecycle, data extraction, cleaning and analysis,
-  including the development, testing, and deployment of new
-  functionalities using Python and C++.
+  pipelines to advance plant biology research. My role involves
+  collecting and preparing data, finding insights, and creating
+  easy-to-understand visuals. I contributed to all phases of the
+  software development lifecycle including the development, testing,
+  and deployment of new functionalities using Python and C++.
 
 - **Freelancer Editor**\
   Enago \[[enago.com](https://www.enago.com/)\], Remote [Since
