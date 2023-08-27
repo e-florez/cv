@@ -4,6 +4,12 @@
 \usepackage[latin1]{}
 \usepackage[utf8x]{inputenc}
 
+% https://www.overleaf.com/learn/latex/Font_typefaces
+% \renewcommand{\sfdefault}{qtm} %tgtermes
+% \renewcommand{\sfdefault}{ppl} %palatino
+\renewcommand{\sfdefault}{lmss}
+\renewcommand{\familydefault}{\sfdefault}
+
 %-------------------------------------------------------
 \usepackage[
     a4paper,
@@ -11,8 +17,8 @@
     paperheight=297mm,
     top=25mm,
     bottom=30mm,
-    left=20mm,
-    right=20mm,
+    left=25mm,
+    right=25mm,
     ]{geometry}
 
 \renewcommand{\baselinestretch}{1.1}
@@ -51,8 +57,8 @@
 \definecolor{my_blue}{RGB}{15,140,230}
 \definecolor{my_red}{RGB}{233,27,255}
 \definecolor{my_gray}{RGB}{70,70,70}
+\definecolor{my_green}{RGB}{63, 160, 55}%mongoDB
 \usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
-\usepackage[T1]{fontenc}
 \usepackage{latexsym,amsmath,amssymb,amsfonts,cancel}
 \usepackage{multirow, array}
 \usepackage{dcolumn}
@@ -73,9 +79,9 @@
     breaklinks,
     colorlinks=true,
     pdfstartview=FitV,
-    linkcolor=my_blue,
-    urlcolor=my_blue,
-    anchorcolor=my_blue,
+    linkcolor=my_green,
+    urlcolor=my_green,
+    anchorcolor=my_green,
     citecolor=my_red,
     colorlinks=true,
     pdfborderstyle={/S/U/W 1},
@@ -93,8 +99,8 @@
 \renewcommand\thesection{\hspace*{-6mm}}
 
 % \renewcommand{\labelitemi}{\( → \)}
-\renewcommand{\labelitemi}{\( \blacktriangleright  \)}
-% \renewcommand{\labelitemi}{\( \blacksquare  \)}
+% \renewcommand{\labelitemi}{\( \blacktriangleright  \)}
+\renewcommand{\labelitemi}{\( \blacksquare  \)}
 
 %------------------------------------------------------------------------
 %E for even page O for odd page L for left side C for centered R for the right side
@@ -137,15 +143,18 @@
 % \input{./sections/contact_info_nz.tex}
 % \input{./sections/contact_info_col.tex}
 %----------------------------------------------------
-\input{./sections/skills.tex}
 \input{./sections/profile.tex}
+\input{./sections/skills.tex}
+%----------------------------------------------------
+
 \input{./sections/work.tex}
 \input{./sections/open_source.tex}
 \input{./sections/academic.tex}
-\input{./sections/awards.tex}
+% \input{./sections/awards.tex}
 % \input{./sections/publications.tex}
 % \input{./sections/supervision.tex}
 \input{./sections/references.tex}
+
 %----------------------------------------------------
 \vfill
 \input{./sections/closing.tex}
