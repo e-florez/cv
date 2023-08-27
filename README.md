@@ -84,7 +84,7 @@ into deliverables.
 
 - **Data Scientist**\
   [Aug.2021 - Aug 2023](.)\
-  HelicoBio [[helico.bio](www.helico.bio)], New Zealand
+  HelicoBio [[helico.bio](https://www.helico.bio)], New Zealand
 
   Contributed to all phases of the software development lifecycle,
   development, testing, and deployment of new functionalities using
@@ -113,7 +113,7 @@ into deliverables.
 
 - **Lab Assistant and Demonstrator**\
   [Aug.2018 - Mar.2020](.)\
-  Massey University [[massey.ac.nz](www.massey.ac.nz)], New Zealand
+  Massey University [[massey.ac.nz](https://www.massey.ac.nz)], New Zealand
 
   Provide instruction and guidance to students in workshops, focusing
   on intricate subjects such as advanced mechanics, thermodynamics,
@@ -128,7 +128,7 @@ into deliverables.
 
 - **Data Scientist**\
   [Aug.2016 - Mar.2018](.)\
-  EY [[ey.com](www.ey.com)], Colombia.
+  EY [[ey.com](https://www.ey.com)], Colombia.
 
   Design tailored solutions through thorough business and technical
   analyses, primarily within SAP for Analytical Banking and Business
@@ -144,7 +144,7 @@ into deliverables.
 
 - **Graduate Teaching Assistant**\
   [Sept.2015 - Aug.2016](.)\
-  University of Antioquia [[udea.edu.co](www.udea.edu.co)],
+  University of Antioquia [[udea.edu.co](https://www.udea.edu.co)],
   Colombia.
 
   Guide advanced college students through the intricate domain of
@@ -161,13 +161,13 @@ into deliverables.
 
 # Open-Source [Contributions](.)
 
-- **PTMC:** ([https://github.com/e-florez/PTMC](github.com/e-florez/PTMC))\
+- **PTMC:** ([github.com/e-florez/PTMC](https://github.com/e-florez/PTMC))\
   An advanced Fortran code that uses the Parallel Tempering Monte
   Carlo (PTMC) method for an accurate and efficient prediction and
   analysis of phase transitions in atomic and molecular clusters.
   **[Role:](.)** Data Scientist and Lead Developer.
 
-- **AMCESS:** ([https://github.com/e-florez/amcess](github.com/e-florez/amcess))\
+- **AMCESS:** ([github.com/e-florez/amcess](https://github.com/e-florez/amcess))\
   Atomic and Molecular Cluster Energy Surface Sampler (AMCESS) is an
   open-source Python package that automates the exploration of the
   Potential Energy Surface (PES) for atomic and molecular clusters.
