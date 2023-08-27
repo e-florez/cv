@@ -113,7 +113,7 @@ into deliverables.
 
 - **Lab Assistant and Demonstrator**\
   [Aug.2018 - Mar.2020](.)\
-  Massey University \[[massey.ac.nz](www.massey.ac.nz)\], New Zealand
+  Massey University [[massey.ac.nz](www.massey.ac.nz)], New Zealand
 
   Provide instruction and guidance to students in workshops, focusing
   on intricate subjects such as advanced mechanics, thermodynamics,
@@ -128,7 +128,7 @@ into deliverables.
 
 - **Data Scientist**\
   [Aug.2016 - Mar.2018](.)\
-  EY \[[ey.com](www.ey.com)\], Colombia.
+  EY [[ey.com](www.ey.com)], Colombia.
 
   Design tailored solutions through thorough business and technical
   analyses, primarily within SAP for Analytical Banking and Business
@@ -144,7 +144,7 @@ into deliverables.
 
 - **Graduate Teaching Assistant**\
   [Sept.2015 - Aug.2016](.)\
-  University of Antioquia \[[udea.edu.co](www.udea.edu.co)\],
+  University of Antioquia [[udea.edu.co](www.udea.edu.co)],
   Colombia.
 
   Guide advanced college students through the intricate domain of
