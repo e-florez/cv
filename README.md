@@ -16,21 +16,21 @@ into deliverables.\
 
 **Interests:**
 
-<div align="center">
+<div align="left">
   <a href="Read">
-  <img width="30" height="40" src="https://github.com/e-florez/cv/blob/main/figs/read.png"></a>
+  <img width="45" height="50" src="https://github.com/e-florez/cv/blob/main/figs/read.png"></a>
   <a href="Write">
-  <img width="40" height="40" src="https://github.com/e-florez/cv/blob/main/figs/write.png"></a>
+  <img width="45" height="50" src="https://github.com/e-florez/cv/blob/main/figs/writing.png"></a>
   <a href="Cyborg">
-  <img width="30" height="40" src="https://github.com/e-florez/cv/blob/main/figs/cyborg.png"></a>
+  <img width="45" height="50" src="https://github.com/e-florez/cv/blob/main/figs/cyborg.png"></a>
   <a href="AI">
-  <img width="30" height="40" src="https://github.com/e-florez/cv/blob/main/figs/microchip.png"></a>
+  <img width="50" height="50" src="https://github.com/e-florez/cv/blob/main/figs/microchip.png"></a>
   <a href="Networking">
-  <img width="40" height="40" src="https://github.com/e-florez/cv/blob/main/figs/networking.png"></a>
+  <img width="55" height="50" src="https://github.com/e-florez/cv/blob/main/figs/networking.png"></a>
   <a href="Beer">
-  <img width="30" height="40" src="https://github.com/e-florez/cv/blob/main/figs/beer.png"></a>
+  <img width="45" height="50" src="https://github.com/e-florez/cv/blob/main/figs/beer.png"></a>
   <a href="Cycling">
-  <img width="30" height="40" src="https://github.com/e-florez/cv/blob/main/figs/cycling.png"></a>
+  <img width="55" height="50" src="https://github.com/e-florez/cv/blob/main/figs/cycling.png"></a>
   <br>
 </div>
 
@@ -219,7 +219,7 @@ Available upon request
 
 <div align="center">
   <a href="github.com/e-florez">
-  <img width="60" height="60" src="https://github.com/e-florez/cv/raw/main/figs/qrcode_github_page.png"></a>
+  <img width="150" height="150" src="https://github.com/e-florez/cv/raw/main/figs/qrcode_github_page.png"></a>
   <br>
 </div>
 
