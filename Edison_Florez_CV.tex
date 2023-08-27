@@ -15,10 +15,10 @@
     a4paper,
     paperwidth=210mm,
     paperheight=297mm,
-    top=25mm,
-    bottom=30mm,
-    left=25mm,
-    right=25mm,
+    top=20mm,
+    bottom=25mm,
+    left=20mm,
+    right=20mm,
     ]{geometry}
 
 \renewcommand{\baselinestretch}{1.1}
@@ -54,10 +54,10 @@
 \usepackage{graphics,setspace}
 \usepackage{color,soul}
 %MY COLORS
-\definecolor{my_blue}{RGB}{15,140,230}
 \definecolor{my_red}{RGB}{233,27,255}
 \definecolor{my_gray}{RGB}{70,70,70}
-\definecolor{my_green}{RGB}{63, 160, 55}%mongoDB
+\definecolor{my_color}{RGB}{15,140,230}%blue
+% \definecolor{my_color}{RGB}{63, 160, 55}%mongoDB
 \usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
 \usepackage{latexsym,amsmath,amssymb,amsfonts,cancel}
 \usepackage{multirow, array}
@@ -79,9 +79,9 @@
     breaklinks,
     colorlinks=true,
     pdfstartview=FitV,
-    linkcolor=my_green,
-    urlcolor=my_green,
-    anchorcolor=my_green,
+    linkcolor=my_color,
+    urlcolor=my_color,
+    anchorcolor=my_color,
     citecolor=my_red,
     colorlinks=true,
     pdfborderstyle={/S/U/W 1},
@@ -147,16 +147,22 @@
 \input{./sections/skills.tex}
 %----------------------------------------------------
 
-\input{./sections/work.tex}
-\input{./sections/open_source.tex}
-\input{./sections/academic.tex}
-% \input{./sections/awards.tex}
-% \input{./sections/publications.tex}
-% \input{./sections/supervision.tex}
-\input{./sections/references.tex}
+\setlength{\columnsep}{10mm}
+\begin{multicols}{2}
+    \input{./sections/work.tex}
+    \input{./sections/open_source.tex}
+    % \input{./sections/publications.tex}
+    \input{./sections/academic.tex}
+    % \input{./sections/awards.tex}
+    % \input{./sections/supervision.tex}
+    \input{./sections/references.tex}
 
-%----------------------------------------------------
-\vfill
-\input{./sections/closing.tex}
+    \vspace*{30mm}
+    %----------------------------------------------------
+    \input{./sections/github_qr.tex}
+    \input{./sections/closing.tex}
+
+\end{multicols}
+
 %----------------------------------------------------
 \end{document}
