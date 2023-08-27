@@ -12,7 +12,7 @@ passion lies in extracting insights from data through critical thinking
 and an understanding of underlying concepts. My background spans biotech
 startups and the financial industry, creating, developing, testing, and
 deploying scalable and adaptive data pipelines to translate business
-into deliverables.\
+into deliverables.
 
 **Interests:**
 
@@ -189,11 +189,11 @@ into deliverables.\
 
 # Academic [Background](.)
 
-- **Ph.D. in Computational Physics,** Massey University, New Zealand ([Jul.2023](.))\
+- **Ph.D. in Computational Physics,** Massey University, New Zealand ([Jul.2023](.))
 
-- **M.Sc. in Computational Chemistry,** University of Antioquia, Colombia ([Dec.2014](.))\
+- **M.Sc. in Computational Chemistry,** University of Antioquia, Colombia ([Dec.2014](.))
 
-- **B.Sc. in Chemistry,** University of Antioquia, Colombia ([Jul.2012](.))\
+- **B.Sc. in Chemistry,** University of Antioquia, Colombia ([Jul.2012](.))
 
 # Fellowships [and Awards](.)
 
@@ -203,7 +203,7 @@ into deliverables.\
 
 # Super[visions](.)
 
-- M.Sc. thesis, Computational Chemistry\ ([Feb.2020](.))\
+- M.Sc. thesis, Computational Chemistry\ ([Feb.2020](.))
   **Microsolvation of Heavy Halides [X(H<sub>2</sub>O)<sub>1-6</sub>]<sup>-</sup> (X = Br, I, At)**\
   University of Antioquia [[udea.edu.co](www.udea.edu.co)], Colombia.
 
