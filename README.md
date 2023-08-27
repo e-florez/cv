@@ -1,7 +1,4 @@
----
----
-
-Edison**Florez**
+# Edison**Florez**
 
 Data Scientist  \|  Business Analyst  \|  Researcher
 
@@ -68,52 +65,6 @@ into deliverables.\
 
 ---
 
-<<<<<<< HEAD
-[**Technical Skills:**](.) Python $\bullet$ C/C++ $\bullet$ Fortran
-$\bullet$ Data Base (SQL/NoSQL) $\bullet$ Git $\bullet$ Docker $\bullet$
-AWS $\bullet$ Power BI $\bullet$ Tableau $\bullet$ Linux $\bullet$ Bash
-$\bullet$ OpenMP $\bullet$ HPC $\bullet$ Testing/TDD $\bullet$ CI/CD
-$\bullet$ LaTeX
-
-[**Key Skills:**](.) Complex problem solving $\bullet$ Critical thinking
-$\bullet$ Storytelling $\bullet$ Creativity $\bullet$ Leadership
-$\bullet$ Teamwork $\bullet$ Project Management $\bullet$ Communication
-$\bullet$ Time management
-
-**Profile:** As a data scientist with a profound background in
-statistics, linear algebra, quantum mechanics, and mathematics, I bring
-over eight years of experience, having served as a data scientist,
-business analyst, researcher, developer, and team leader. My passion
-lies in extracting fundamental insights from data, thinking critically,
-and understanding the rationale behind each task. With my ability to
-learn quickly and motivation to take on challenges, I have excelled as a
-team player and individual contributor, taking calculated risks and
-showing initiative. My experience spans consulting for biotech startups
-and the financial industry, where I develop and validate scalable data
-pipelines, and work collaboratively to deliver top-quality, data-driven
-solutions. In my spare time, I enjoy intellectual pursuits like drawing
-and writing about science fiction. I am a beer and cycling enthusiast,
-although not all simultaneously.
-
-# Professional [Experience](.)
-
-- **Data Scientist**[Aug.2021 - Aug 2023](.)\
-  HelicoBio \[[helico.bio](www.helico.bio)\], New Zealand
-
-  COMPUTATIONAL PROTEIN DESIGNER: Leveraging in-depth knowledge of
-  biophysics and protein design, I created and validated scalable
-  pipelines to advance plant biology research. As a `DATA SCIENTIST`,
-  I collaborated with cross-functional groups to deliver high-quality,
-  data-driven solutions. My role involves collecting and preparing
-  data, finding insights, and creating easy-to-understand visuals. I
-  contributed to all phases of the software development lifecycle
-  including the development, testing, and deployment of new
-  functionalities using Python and C++. A notable achievement was
-  leading the development of a pipeline, a protein design platform
-  enabling the execution of comprehensive all-atom molecular dynamics
-  simulations, which are instrumental in understanding protein
-  dynamics and function.
-=======
 # Professional [Experience](.)
 
 - **Data Scientist**[**Aug.2021 - Aug 2023**](.)\
@@ -131,7 +82,6 @@ although not all simultaneously.
   simulations. This advancement has reduced wet-lab workflows by 20%,
   significantly enhancing our understanding of protein function in the
   context of designing new proteins.
->>>>>>> profile_data_science_business_analyst
 
 - **Freelancer Editor**\
   Enago \[[enago.com](https://www.enago.com/)\], Remote [**Since
@@ -147,13 +97,8 @@ although not all simultaneously.
   writing and editing activities, and ensured content clarity and
   accuracy increasing by more than 30% desk acceptance.
 
-<<<<<<< HEAD
-- **Teaching/Lab Assistant and Demonstrator** [Aug.2018 -
-  Mar.2020](.)\
-=======
 - **Teaching/Lab Assistant and Demonstrator** [**Aug.2018 -
   Mar.2020**](.)\
->>>>>>> profile_data_science_business_analyst
   Massey University \[[massey.ac.nz](www.massey.ac.nz)\], New Zealand
 
   I provide instruction and guidance to students in workshops,
@@ -186,14 +131,6 @@ although not all simultaneously.
   University of Antioquia \[[udea.edu.co](www.udea.edu.co)\],
   Colombia.
 
-<<<<<<< HEAD
-  QUANTUM & COMPUTATIONAL CHEMISTRY: Guide advanced college students
-  through the intricate domain of Quantum Chemistry. I ensure students
-  achieve proficiency in the quantum language, comprehend relevant
-  methods, and grasp key concepts. Furthermore, I facilitate their
-  understanding of the interpretation and application of these
-  principles in chemically interesting systems.
-=======
   I guide advanced college students through the intricate domain of
   Quantum Mechanics. My role involves ensuring that students achieve
   proficiency in the language of quantum mechanics, comprehend
@@ -203,7 +140,6 @@ although not all simultaneously.
   implemented within the Quantum Chemistry subject. These modules have
   notably enhanced students' understanding of the quantum language and
   its practical application in the field of computational chemistry.
->>>>>>> profile_data_science_business_analyst
 
 # Open-Source [Contributions](.)
 
@@ -220,7 +156,6 @@ although not all simultaneously.
   **[Role:](.)** [Lead Data Scientist and Architect.]{.underline}
 
 # Academic [Background](.)
-<<<<<<< HEAD
 
 - **Doctor of Philosophy** [July 2023](.)\
   Computational Physics, Massey University, New Zealand
@@ -252,10 +187,8 @@ although not all simultaneously.
    [ui.adsabs.harvard.edu/abs/2019APS..MARC17001F](https://ui.adsabs.harvard.edu/abs/2019APS..MARC17001F/abstract)
 
 6. **Flórez, Edison**; Alejandro F. Maldonado; Gustavo A. Aucar; Jorge David; and Albeiro Restrepo. "Microsolvation of methylmercury: structures, energies, bonding and NMR constants (<sup>199</sup>Hg, <sup>13</sup>C and <sup>17</sup>O)." Physical Chemistry Chemical Physics 18, no. 3 (2016): 1537-1550. [DOI: 10.1039/c5cp04826e](https://www.doi.org/10.1039/c5cp04826e)
-   Super[visions](.)
-   =================
-=======
->>>>>>> profile_data_science_business_analyst
+
+# Super[visions](.)
 
 - **Ph.D. in Computational Physics,** Massey University, New Zealand
   [**Jul.2023**](.)\
