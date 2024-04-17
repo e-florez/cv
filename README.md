@@ -173,20 +173,6 @@ into deliverables.
   Potential Energy Surface (PES) for atomic and molecular clusters.
   **[Role:](.)** Lead Data Scientist and Architect.
 
-# Publi[cations](.)
-
-1. **Flórez, Edison**; Zapata-Escobar, Andy; Ferraro, Franklin; Ibarguen-Becerra, César; Chamorro, Yuly; and Maldonado, Alejandro F. "Coordination of Mercury (II) in Water Promoted over Hydrolysis in Solvated Clusters [Hg(H<sub>2</sub>O)<sub>1-6</sub>]<sup>2+</sup><sub>(aq)</sub>: Insights from Relativistic Effects and Free Energy Analysis." [Accepted Accepted by The Journal of Physical Chemistry A](.)
-
-2. **Flórez, Edison**; Reuvers, Tom; Schwarz, WH Eugen and Peter Schwerdtfeger."The Stability of the Noble Gas Fluorides from Nonrelativistic and Relativistic Density Functional and Coupled Cluster Studies." [Submitted](.)
-
-3. **Flórez, Edison**; Odile R. Smits; Jan-Michael Mewes; Paul Jerabek; and Peter Schwerdtfeger. "From the gas phase to the solid state: The chemical bonding in the superheavy element flerovium." The Journal of Chemical Physics 157, no. 6 (2022): 064304.[DOI: 10.1063/5.0097642](https://www.doi.org/10.1063/5.0097642)
-
-4. Chamorro, Yuly; **Flórez, Edison**; Alejandro F. Maldonado; Gustavo A. Aucar; and Albeiro Restrepo. "Microsolvation of heavy halides." International Journal of Quantum Chemistry 121, no. 7 (2021): e26571. [DOI: 10.1002/qua.26571](https://www.doi.org/10.1002/qua.26571)
-
-5. **Flórez, Edison**; Helgaker, Trygve; Klopper, Wim; Teale, Andrew; Stopkowicz, Stella; and Pahl, Elke. "Melting Under Extreme Conditions: Ab Initio Monte Carlo Simulations." In APS March Meeting Abstracts, vol. 2019, pp. C17-001. 2019. [ui.adsabs.harvard.edu/abs/2019APS..MARC17001F](https://ui.adsabs.harvard.edu/abs/2019APS..MARC17001F/abstract)
-
-6. **Flórez, Edison**; Alejandro F. Maldonado; Gustavo A. Aucar; Jorge David; and Albeiro Restrepo. "Microsolvation of methylmercury: structures, energies, bonding and NMR constants (<sup>199</sup>Hg, <sup>13</sup>C and <sup>17</sup>O)." Physical Chemistry Chemical Physics 18, no. 3 (2016): 1537-1550. [DOI: 10.1039/c5cp04826e](https://www.doi.org/10.1039/c5cp04826e)
-
 # Academic [Background](.)
 
 - **Ph.D. in Computational Physics,** Massey University, New Zealand ([Jul.2023](.))
@@ -194,22 +180,6 @@ into deliverables.
 - **M.Sc. in Computational Chemistry,** University of Antioquia, Colombia ([Dec.2014](.))
 
 - **B.Sc. in Chemistry,** University of Antioquia, Colombia ([Jul.2012](.))
-
-# Fellowships [and Awards](.)
-
-- Massey University Doctoral Scholarship
-
-- Master in Science Honours and research work with meritorious award.
-
-# Super[visions](.)
-
-- M.Sc. thesis, Computational Chemistry\ ([Feb.2020](.))
-  **Microsolvation of Heavy Halides [X(H<sub>2</sub>O)<sub>1-6</sub>]<sup>-</sup> (X = Br, I, At)**\
-  University of Antioquia [[udea.edu.co](www.udea.edu.co)], Colombia.
-
-- B.Sc. Thesis, Computational Chemistry ([Dec.2017](.))\
-  **Relativistic and Electron Correlation Effects on the Calculation of Nuclear Magnetic Resonance Parameters on MX Diatomic Molecules (M=Cu, Ag, Au and X=F, Cl, Br, I)**\
-  University of Antioquia [[udea.edu.co](www.udea.edu.co)], Colombia.
 
 # Refe[rences](.)
 
