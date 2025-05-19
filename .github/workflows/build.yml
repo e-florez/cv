@@ -7,11 +7,23 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: pandoc/actions/setup@v1
-      - run: |
+
+      - name: Install LaTeX engine
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+               texlive-latex-base \
+               texlive-latex-recommended \
+               texlive-latex-extra \
+               texlive-fonts-recommended
+
+      - name: Build PDFs
+        run: |
           pandoc cv.md -o Edison_Florez_CV.pdf
           pandoc cv.md -M job=data-science -o Edison_Florez_DS.pdf
           pandoc cv.md -M job=academia     -o Edison_Florez_AC.pdf
+
       - uses: actions/upload-artifact@v4
         with:
           name: pdfs
-          path: "*.pdf"
+          path: Edison_Florez_*.pdf
