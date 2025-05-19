@@ -6,6 +6,12 @@ geometry: margin=1.6cm
 fontsize: 11pt
 colorlinks: true
 lang: en
+header-includes:
+  - \usepackage{fontspec}
+  - \newfontfamily\EmojiOneColor{Noto Color Emoji}[Path=/usr/share/fonts/truetype/noto/]
+  - \newunicodechar{📧}{{\EmojiOneColor 📧}}
+  - \newunicodechar{💻}{{\EmojiOneColor 💻}}
+  - \newunicodechar{🔗}{{\EmojiOneColor 🔗}}
 ---
 
 # Edison Flórez, Ph.D.  

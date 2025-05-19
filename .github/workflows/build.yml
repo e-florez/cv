@@ -12,16 +12,18 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y \
+               texlive-xetex \
                texlive-latex-base \
                texlive-latex-recommended \
                texlive-latex-extra \
-               texlive-fonts-recommended
+               texlive-fonts-recommended \
+               fonts-noto-color-emoji
 
       - name: Build PDFs
         run: |
-          pandoc cv.md -o Edison_Florez_CV.pdf
-          pandoc cv.md -M job=data-science -o Edison_Florez_DS.pdf
-          pandoc cv.md -M job=academia     -o Edison_Florez_AC.pdf
+          pandoc cv.md --pdf-engine=xelatex -o Edison_Florez_CV.pdf
+          pandoc cv.md --pdf-engine=xelatex -M job=data-science -o Edison_Florez_DS.pdf
+          pandoc cv.md --pdf-engine=xelatex -M job=academia     -o Edison_Florez_AC.pdf
 
       - uses: actions/upload-artifact@v4
         with:
