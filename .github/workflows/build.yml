@@ -30,9 +30,10 @@ jobs:
           name: pdfs
           path: Edison_Florez_*.pdf
 
-      # publish PDFs to the gh-pages branch
+      # publish PDFs to the gh-pages branch 
       - name: Deploy to GitHub Pages
-        if: github.ref == 'refs/heads/main'   # only from main
+        if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/feature/moving_from_latex_to_md_pandoc'
+
         run: |
           git config --global user.email "actions@github.com"
           git config --global user.name  "GitHub Actions"
