@@ -43,7 +43,9 @@ jobs:
           git switch --force-create gh-pages
           
           # ---------- copy PDFs produced in the build folder
-          cp ../Edison_Florez_*.pdf .
+          ls -l
+          mkdir -p docs/
+          cp Edison_Florez_*.pdf docs/
           
           # ---------- commit & push only if something changed
           git add *.pdf
