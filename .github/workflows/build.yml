@@ -1,11 +1,22 @@
 name: Build CV
 on: [push, workflow_dispatch]
 
+# 1️⃣  allow the automatic GITHUB_TOKEN to push
+permissions:
+  contents: write      # allows git push
+  pages: write         # only needed if you also publish Pages with the same token
+  id-token: write      # optional, enables OIDC for Pages deployment
+
 jobs:
   pdf:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
+        # 2️⃣  make sure checkout uses the same token with write permission
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
       - uses: pandoc/actions/setup@v1
 
       - name: Install LaTeX engine
@@ -30,25 +41,26 @@ jobs:
           name: pdfs
           path: Edison_Florez_*.pdf
 
-      # publish PDFs to the gh-pages branch 
       - name: Deploy to GitHub Pages
         if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/feature/moving_from_latex_to_md_pandoc'
+        env:
+          # 2️⃣  use the built-in token that now has write permission
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --global user.email "actions@github.com"
           git config --global user.name  "GitHub Actions"
-          
-          # ---------- checkout (or create) gh-pages
+
+          # checkout (or create) gh-pages
           git fetch origin gh-pages || true
           git switch --force-create gh-pages
-          
-          # ---------- copy PDFs produced in the build folder
+
+          # copy PDFs
           # cp ../Edison_Florez_*.pdf .
-          
-          # ---------- commit & push only if something changed
+
+          # commit & push only if something changed
           git add *.pdf
           if ! git diff --cached --quiet; then
             git commit -m "docs(cv): update generated PDFs [skip ci]"
-            git push origin gh-pages
+            # authenticate the push with the token
+            git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} gh-pages
           fi
-        env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}  # Use the secret here
