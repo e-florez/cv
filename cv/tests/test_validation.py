@@ -1,30 +1,38 @@
+"""Pytest tests for the CV data validation and schema generation scripts.
+
+This module contains a suite of tests to verify the functionality of
+`cv/validators.py`. It checks:
+- Successful validation of correctly structured CV data.
+- Failure for various types of invalid data (missing fields, incorrect formats,
+  invalid variant tags).
+- Handling of malformed or empty YAML files.
+- Successful generation of the JSON schema.
+
+Tests use pytest's `tmp_path` fixture to create temporary files and directories,
+ensuring that tests do not interfere with the project's actual data or
+generated files and that they are run in an isolated environment.
+"""
+import json
+import sys
+from pathlib import Path
+from typing import Any
+
 import pytest
 import yaml
-import os
-import sys
-import shutil
-import json
-import subprocess
-from pathlib import Path
 
-# Add project root to sys.path
-PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent # cv/tests/ -> cv/ -> project_root
+# Add project root to sys.path to allow imports like cv.validators
+# PROJECT_ROOT is 'project_root/'
+PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
-from cv.validators import main_validate, generate_schema
-from cv.schemas import CVData # For type hinting or direct model use if needed
+# Assuming validators.py is in project_root/cv/
+from cv.validators import main_validate_cli, generate_schema_cli # noqa: E402
+# from cv.schemas import CVData # Not strictly needed for these tests if not directly instantiating
 
-# Helper to create a YAML file in tmp_path for testing
-def make_cv_yaml(base_path: Path, data_dict: dict, filename: str = "cv_data_test.yaml"):
-    # No need to create cv/data structure if full path is used by main_validate
-    file_path = base_path / filename
-    with open(file_path, 'w', encoding='utf-8') as f:
-        yaml.dump(data_dict, f)
-    return str(file_path)
+# --- Test Data Fixtures and Helpers ---
 
-# Minimal valid data structure (can be extended by tests)
-minimal_metadata = {
+MINIMAL_METADATA: dict[str, Any] = {
     "variants": {
         "ds": {"name": "Data Science", "description": "DS variant", "sections": ["experience", "education", "projects"]},
         "ac": {"name": "Academic", "description": "Academic variant", "sections": ["education", "publications"]},
@@ -32,13 +40,56 @@ minimal_metadata = {
     }
 }
 
-minimal_personal_info = {"name": "Test User", "email": "test@example.com"}
-minimal_profile = "A test profile."
+MINIMAL_PERSONAL_INFO: dict[str, str] = {"name": "Test User", "email": "test@example.com"}
+MINIMAL_PROFILE: str = "A test profile."
 
-def get_valid_cv_data(overrides=None):
-    data = {
-        "personal_info": minimal_personal_info.copy(),
-        "profile": minimal_profile,
+def make_cv_yaml(base_path: Path, data_dict: dict[str, Any], filename: str = "cv_data_test.yaml") -> Path:
+    """Create a YAML file in the specified base path for testing.
+
+    The YAML file is created directly in the `base_path`. Test functions
+    then pass the full path to this file to the validation scripts.
+
+    Parameters
+    ----------
+    base_path : Path
+        The base temporary directory (typically pytest's `tmp_path`).
+    data_dict : dict[str, Any]
+        The Python dictionary to dump as YAML content.
+    filename : str, optional
+        The name of the YAML file, by default "cv_data_test.yaml".
+
+    Returns
+    -------
+    Path
+        The absolute path to the created YAML file.
+    """
+    file_path = base_path / filename
+    # Ensure parent directory exists, though for tmp_path it usually does.
+    file_path.parent.mkdir(parents=True, exist_ok=True)
+    with file_path.open('w', encoding='utf-8') as f:
+        yaml.dump(data_dict, f)
+    return file_path
+
+def get_valid_cv_data(overrides: dict[str, Any] | None = None) -> dict[str, Any]:
+    """Generate a dictionary representing a valid CV data structure.
+
+    This function provides a baseline of valid CV data that can be
+    customized with the `overrides` parameter for specific test cases.
+
+    Parameters
+    ----------
+    overrides : dict[str, Any] | None, optional
+        A dictionary of data to override in the baseline valid data.
+        This is a shallow update. Default is None.
+
+    Returns
+    -------
+    dict[str, Any]
+        A dictionary representing valid CV data.
+    """
+    data: dict[str, Any] = {
+        "personal_info": MINIMAL_PERSONAL_INFO.copy(),
+        "profile": MINIMAL_PROFILE,
         "experience": [{
             "title": "Test Role", "company": "TestCo", "location": "Test City",
             "start_date": "Jan 2020", "end_date": "Dec 2021", "description": "Tested stuff.", "variants": ["ds"]
@@ -55,119 +106,127 @@ def get_valid_cv_data(overrides=None):
             "title": "Test Paper", "authors": "Test Author", "journal": "Test Journal", "year": "2022", "variants": ["ac"]
         }],
         "awards": [{"name": "Test Award", "year": "2021", "variants": ["ac"]}],
-        "metadata": minimal_metadata.copy()
+        "metadata": MINIMAL_METADATA.copy()
     }
     if overrides:
-        # Simple override, not deep merge. For deep merge, a utility would be needed.
-        data.update(overrides)
+        data.update(overrides) # Shallow update is sufficient for current test needs
     return data
 
-def test_successful_validation(tmp_path):
+# --- Test Cases ---
+
+def test_successful_validation(tmp_path: Path) -> None:
+    """Test that a well-formed, valid CV YAML file passes validation."""
     valid_data = get_valid_cv_data()
     cv_yaml_path = make_cv_yaml(tmp_path, valid_data)
-    assert main_validate(file_path=cv_yaml_path) == True
+    assert main_validate_cli(file_path=cv_yaml_path) is True
 
-def test_missing_required_field(tmp_path):
+def test_missing_required_field(tmp_path: Path) -> None:
+    """Test validation failure when a required field is missing."""
     invalid_data = get_valid_cv_data()
-    del invalid_data["personal_info"]["name"] # name is required
+    del invalid_data["personal_info"]["name"]  # 'name' is a required field
     cv_yaml_path = make_cv_yaml(tmp_path, invalid_data)
-    assert main_validate(file_path=cv_yaml_path) == False
+    assert main_validate_cli(file_path=cv_yaml_path) is False
 
-def test_incorrect_date_format(tmp_path):
+def test_incorrect_date_format(tmp_path: Path) -> None:
+    """Test validation failure for incorrect date string formats."""
     invalid_data = get_valid_cv_data()
-    invalid_data["experience"][0]["start_date"] = "2021 Aug" # Incorrect format
+    invalid_data["experience"][0]["start_date"] = "2021 August"  # Expected "Aug 2021"
     cv_yaml_path = make_cv_yaml(tmp_path, invalid_data)
-    assert main_validate(file_path=cv_yaml_path) == False
+    assert main_validate_cli(file_path=cv_yaml_path) is False
 
-def test_invalid_email_format(tmp_path):
+def test_invalid_email_format(tmp_path: Path) -> None:
+    """Test validation failure for invalid email address formats."""
     invalid_data = get_valid_cv_data()
-    invalid_data["personal_info"]["email"] = "not-an-email"
+    invalid_data["personal_info"]["email"] = "not-an-email-address"
     cv_yaml_path = make_cv_yaml(tmp_path, invalid_data)
-    assert main_validate(file_path=cv_yaml_path) == False
+    assert main_validate_cli(file_path=cv_yaml_path) is False
 
-def test_invalid_url_format(tmp_path):
+def test_invalid_url_format(tmp_path: Path) -> None:
+    """Test validation failure for invalid URL formats."""
     invalid_data = get_valid_cv_data()
-    invalid_data["personal_info"]["linkedin"] = "not_a_url" # Optional field, but if present, must be valid URL
+    # 'linkedin' is optional, but if present, must be a valid HttpUrl
+    invalid_data["personal_info"]["linkedin"] = "not_a_valid_url"
     cv_yaml_path = make_cv_yaml(tmp_path, invalid_data)
-    assert main_validate(file_path=cv_yaml_path) == False
+    assert main_validate_cli(file_path=cv_yaml_path) is False
 
-def test_invalid_variant_tag(tmp_path):
+def test_invalid_variant_tag(tmp_path: Path) -> None:
+    """Test failure when an item uses a variant tag not defined in metadata."""
     invalid_data = get_valid_cv_data()
-    invalid_data["experience"][0]["variants"] = ["non_existent_variant"]
+    invalid_data["experience"][0]["variants"] = ["non_existent_variant_tag"]
     cv_yaml_path = make_cv_yaml(tmp_path, invalid_data)
-    assert main_validate(file_path=cv_yaml_path) == False
+    assert main_validate_cli(file_path=cv_yaml_path) is False
 
-def test_valid_variant_tag(tmp_path):
-    # This is effectively covered by test_successful_validation,
-    # but can be more specific if needed.
+def test_valid_variant_tag(tmp_path: Path) -> None:
+    """Test successful validation with correctly defined and used variant tags."""
+    # This is largely covered by test_successful_validation.
+    # This test ensures that if metadata and variants are correctly set up, it passes.
     valid_data = get_valid_cv_data()
-    # Ensure at least one item has a variant tag that is defined
+    # Ensure a specific variant tag is present and defined
     valid_data["experience"][0]["variants"] = ["ds"]
-    valid_data["metadata"]["variants"] = {"ds": {"name": "Data Science", "description": "Test", "sections": ["experience"]}}
+    # Ensure the metadata defines this variant
+    valid_data["metadata"]["variants"] = {"ds": {"name": "Data Science Variant", "description":"Test", "sections": ["experience"]}}
     cv_yaml_path = make_cv_yaml(tmp_path, valid_data)
-    assert main_validate(file_path=cv_yaml_path) == True
+    assert main_validate_cli(file_path=cv_yaml_path) is True
 
-def test_malformed_yaml_file(tmp_path):
-    malformed_yaml_content = "personal_info: \n  name: Test\n email: test@example.com" # Incorrect indentation for email
+def test_malformed_yaml_file(tmp_path: Path) -> None:
+    """Test validation failure for syntactically incorrect YAML files."""
+    # Example: Incorrect indentation causing a YAML parsing error
+    malformed_yaml_content = "personal_info: \n  name: Test User\n email: test@example.com"
     file_path = tmp_path / "malformed.yaml"
-    with open(file_path, 'w', encoding='utf-8') as f:
+    with file_path.open('w', encoding='utf-8') as f:
         f.write(malformed_yaml_content)
-    assert main_validate(file_path=str(file_path)) == False
+    assert main_validate_cli(file_path=file_path) is False
 
-def test_empty_yaml_file(tmp_path):
+def test_empty_yaml_file(tmp_path: Path) -> None:
+    """Test validation failure for empty YAML files."""
     file_path = tmp_path / "empty.yaml"
-    with open(file_path, 'w', encoding='utf-8') as f:
-        f.write("") # Empty file
-    assert main_validate(file_path=str(file_path)) == False
+    with file_path.open('w', encoding='utf-8') as f:
+        f.write("")  # Empty content
+    assert main_validate_cli(file_path=file_path) is False
 
-def test_schema_generation(tmp_path):
+def test_schema_generation(tmp_path: Path) -> None:
+    """Test successful generation of the JSON schema file."""
     schema_output_file = tmp_path / "cv_schema.json"
     
-    # Capture stdout/stderr to check messages if needed, but problem statement focuses on file
-    # For generate_schema, it sys.exits on error. We can run it in a subprocess
-    # or rely on pytest to capture SystemExit if not caught by the function.
-    # The function itself prints and logs.
-    
-    # generate_schema might call sys.exit(1) on error.
-    # A simple way to test this without subprocess is to expect it to not raise SystemExit for success.
-    try:
-        generate_schema(output_path=str(schema_output_file))
-    except SystemExit as e:
-        pytest.fail(f"generate_schema exited unexpectedly: {e}")
+    # generate_schema_cli returns True on success, False on failure
+    assert generate_schema_cli(output_path=schema_output_file) is True
 
     assert schema_output_file.exists()
-    with open(schema_output_file, 'r') as f:
+    with schema_output_file.open('r', encoding='utf-8') as f:
         content = json.load(f)
     
     assert "title" in content
-    assert content["title"] == "CVData"
+    assert content["title"] == "CVData"  # As defined in cv.schemas.CVData
     assert "properties" in content
-    assert "personal_info" in content["properties"]
-    assert "definitions" in content # Pydantic uses "definitions" or "$defs" based on version
-                                    # For older Pydantic v1, it's "definitions"
-                                    # For Pydantic v2, it might be "$defs"
-    # Check for some known models in definitions (actual names might vary with Pydantic settings)
-    expected_definitions = ["PersonalInfo", "ExperienceItem", "EducationItem", "Skills"]
-    # Pydantic v2 might use "$defs"
+    assert "personal_info" in content["properties"] # A known field in CVData
+    
+    # Pydantic v1 uses "definitions", Pydantic v2+ often uses "$defs"
     defs_key = "$defs" if "$defs" in content else "definitions"
-
+    assert defs_key in content, f"Neither '$defs' nor 'definitions' found in schema: {content.keys()}"
+    
+    # Check for some known model names in definitions/defs
+    expected_definitions = ["PersonalInfo", "ExperienceItem", "EducationItem", "Skills"]
     for def_name in expected_definitions:
-        assert def_name in content[defs_key], f"{def_name} not found in schema {defs_key}"
+        assert def_name in content[defs_key], f"'{def_name}' not found in schema {defs_key}."
 
-# Example of how to check log content if needed (requires more setup or modification to validators.py)
-# def test_successful_validation_with_log_check(tmp_path, caplog):
+# Note on log checking:
+# The current `validators.py` setup configures logging to a file and console.
+# Pytest's `caplog` fixture captures logging to the root logger.
+# If `validators.py` uses `logging.getLogger()` for its messages, `caplog` should
+# capture them if the level is appropriate.
+# For example, to check if a specific INFO message was logged to console/captured by caplog:
+# def test_successful_validation_log_output(tmp_path: Path, caplog: pytest.LogCaptureFixture) -> None:
+#     """Test that successful validation logs an appropriate message."""
 #     import logging
-#     caplog.set_level(logging.INFO)
+#     caplog.set_level(logging.INFO) # Ensure caplog captures INFO messages
 #     valid_data = get_valid_cv_data()
 #     cv_yaml_path = make_cv_yaml(tmp_path, valid_data)
-#     assert main_validate(file_path=cv_yaml_path) == True
-#     assert "YAML validation passed successfully" in caplog.text
-# Requires validators.py to use a logger that caplog can capture.
-# If validators.py configures its own file-based logger directly,
-# caplog won't capture it without changes to how logging is set up in validators.py.
-# For now, log checking is omitted as per instructions.
-# The `PROJECT_ROOT/cv/validation.log` will be written to by the tests.
-# This file should be in .gitignore.
-# To make tests more isolated regarding logging, validators.py would need to be refactored
-# to allow injection of log configuration or path.
+#     assert main_validate_cli(file_path=cv_yaml_path) is True
+#     # Check for the specific success message from main_validate_cli's logging
+#     # This depends on the exact message logged by validators.py
+#     assert "CV data validation passed successfully" in caplog.text # Or a more specific logger
+#
+# This kind of test is currently omitted as per instructions but can be added if log output verification is needed.
+# The `validation.log` file will be created in `PROJECT_ROOT/cv/` during tests.
+# This file should ideally be in `.gitignore`.
 ```
