@@ -1,0 +1,140 @@
+personal_info:
+  name: "Edison Florez"
+  email: "edisonffh@gmail.com"
+  phone: "+1234567890"
+  linkedin: "linkedin.com/in/edisonflorez"
+  github: "github.com/e-florez"
+  website: "example.com"
+
+profile: |
+  A highly motivated and results-oriented Data Scientist with X years of experience in [...]
+  Seeking a challenging position at a dynamic organization where I can leverage my skills in [...]
+
+experience:
+  - title: "Data Scientist"
+    company: "HelicoBio"
+    location: "New Zealand"
+    start_date: "Aug 2021"
+    end_date: "Aug 2023"
+    current: false
+    description: "Developed and implemented machine learning models for [...]"
+    achievements:
+      - "Increased model accuracy by 15%."
+      - "Reduced data processing time by 30%."
+    variants: ["ds", "general"]
+  - title: "Research Assistant"
+    company: "University of Example"
+    location: "City, Country"
+    start_date: "Jan 2020"
+    end_date: "Jul 2021"
+    current: false
+    description: "Conducted research on [...]"
+    achievements:
+      - "Co-authored 2 publications."
+      - "Presented findings at 3 conferences."
+    variants: ["ac"]
+
+education:
+  - degree: "PhD in Computational Physics"
+    institution: "University of Example"
+    location: "City, Country"
+    start_date: "Sep 2016"
+    end_date: "Dec 2019"
+    description: "Dissertation on [...]"
+    variants: ["ac", "ds"]
+  - degree: "MSc in Physics"
+    institution: "University of Example"
+    location: "City, Country"
+    start_date: "Sep 2014"
+    end_date: "Jul 2016"
+    variants: ["ac", "ds"]
+
+skills:
+  technical:
+    - name: "Python"
+      level: "Expert"
+      keywords: ["pandas", "numpy", "scikit-learn", "tensorflow"]
+    - name: "SQL"
+      level: "Advanced"
+    - name: "Machine Learning"
+      level: "Advanced"
+  soft:
+    - name: "Communication"
+    - name: "Problem Solving"
+  tools:
+    - name: "Git"
+    - name: "Docker"
+    - name: "JIRA"
+  languages:
+    - name: "English"
+      level: "Fluent"
+    - name: "Spanish"
+      level: "Native"
+
+
+publications:
+  - title: "Quantum Entanglement in High Dimensions"
+    authors: "Florez, E., et al."
+    journal: "Journal of Advanced Physics"
+    year: "2019"
+    doi: "10.1234/jap.2019.001"
+    variants: ["ac"]
+  - title: "A new method for..."
+    authors: "Florez, E., et al."
+    journal: "Journal of Computational Physics"
+    year: "2018"
+    doi: "10.1234/jcp.2018.002"
+    variants: ["ac", "ds"]
+
+
+projects:
+  - name: "Customer Churn Prediction"
+    description: "Developed a model to predict customer churn, achieving 90% accuracy."
+    technologies: ["Python", "Scikit-learn", "Pandas"]
+    link: "github.com/e-florez/churn-prediction"
+    variants: ["ds"]
+  - name: "Personal Portfolio Website"
+    description: "Designed and built a personal portfolio website using Jekyll and GitHub Pages."
+    technologies: ["Jekyll", "HTML", "CSS", "JavaScript"]
+    variants: ["general"]
+
+awards:
+  - name: "Best Poster Award"
+    event: "International Conference on Physics"
+    year: "2019"
+    description: "Awarded for outstanding poster presentation on [...]"
+    variants: ["ac"]
+
+metadata:
+  variants:
+    ds:
+      name: "Data Science CV"
+      description: "Tailored for Data Science roles."
+      sections:
+        - "personal_info"
+        - "profile"
+        - "experience"
+        - "education"
+        - "skills"
+        - "projects"
+    ac:
+      name: "Academic CV"
+      description: "Tailored for Academic positions."
+      sections:
+        - "personal_info"
+        - "profile"
+        - "education"
+        - "publications"
+        - "experience" # Assuming academic experience might be relevant
+        - "awards"
+        - "skills" # Relevant technical/research skills
+    general:
+      name: "General CV"
+      description: "A general purpose CV."
+      sections:
+        - "personal_info"
+        - "profile"
+        - "experience"
+        - "education"
+        - "skills"
+        - "projects"

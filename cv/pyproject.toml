@@ -1,0 +1,67 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cv_generator"
+version = "0.1.0"
+description = "A YAML-based multi-format CV generation system."
+readme = "README.md" # This will be cv/README.md
+requires-python = ">=3.8"
+license = {text = "MIT License"}
+authors = [
+  {name = "Edison Florez", email = "edisonffh@example.com"}, # Placeholder from issue
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Development Status :: 3 - Alpha",
+    "Topic :: Utilities",
+]
+
+dependencies = [
+    "pyyaml>=6.0",
+    "pydantic>=2.5",
+    "jsonschema>=4.0", # For Pydantic's JSON schema generation/validation
+    "jinja2>=3.0",     # For templating (Feature 2)
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "pytest-cov>=3.0",
+    "pre-commit>=3.0",
+    "black>=24.0",     # Updated to common recent versions
+    "isort>=5.12",
+    "flake8>=7.0",
+    # "mypy>=1.0" # Example if type checking is to be added
+]
+test = [
+    "pytest>=7.0",
+    "pytest-cov>=3.0",
+]
+
+[project.scripts]
+# cv-validator = "cv.validators:main_cli" # Example if main_validate was callable from a CLI entry point in validators
+# For now, users will run `python cv/validators.py --validate` or --generate-schema
+
+[tool.setuptools]
+packages = ["cv"] # Specifies that the 'cv' directory is a package
+
+[tool.pytest.ini_options]
+pythonpath = [
+  "." # Allows pytest to find the 'cv' package from the root directory
+]
+testpaths = [
+    "cv/tests", # Path to test files
+]
+# addopts = "--cov=cv --cov-report=term-missing" # Enable coverage reporting
+
+[tool.black]
+line-length = 88
+target-version = ['py38'] # Specify oldest supported Python version
+
+[tool.isort]
+profile = "black"
+line_length = 88

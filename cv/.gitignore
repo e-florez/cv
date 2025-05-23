@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.env
+.venv/
+venv/
+ENV/
+env/
+pip-wheel-metadata/
+
+# CV System Specific
+output/
+*.log
+validation.log
+schema.json
+*.pdf
+*.html
+*.md
+*.tex # Intermediate LaTeX files
+
+# Build artifacts
+dist/
+build/
+*.local
+
+# IDE / Editor specific
+.vscode/
+.idea/
+*.swp
+*~
