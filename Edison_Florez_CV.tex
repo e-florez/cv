@@ -19,7 +19,7 @@
     bottom=25mm,
     left=20mm,
     right=20mm,
-    ]{geometry}
+]{geometry}
 
 \renewcommand{\baselinestretch}{1.1}
 %-------------------------------------------------
@@ -44,6 +44,7 @@
 \usepackage{eepic}
 \usepackage{ifpdf}
 \usepackage{pdflscape}
+\usepackage[en-US]{datetime2}
 \usepackage{lineno}
 \usepackage{titlesec}
 \usepackage{ragged2e}
@@ -85,7 +86,7 @@
     citecolor=my_red,
     colorlinks=true,
     pdfborderstyle={/S/U/W 1},
-    ]{hyperref}
+]{hyperref}
 \usepackage{hyperref}
 \usepackage{tikz}
 \usepackage{afterpage}
@@ -103,17 +104,25 @@
 \renewcommand{\labelitemi}{\( \blacksquare  \)}
 
 %------------------------------------------------------------------------
-%E for even page O for odd page L for left side C for centered R for the right side
+%E for even page O for odd page L for left side C for centered R for
+% the right side
 \pagestyle{fancy}
 \fancyhf{}
 % \fancyhead[C]{
 \fancyfoot[C]{
-        \input{./sections/footer.tex}
-    }
+    \input{./sections/footer.tex}
+}
 % \fancyhead[RE,LO]{Guides and tutorials}
 % \fancyfoot[CE,CO]{\leftmark}
-\fancyhead[L]{\textcolor{my_gray}{\scriptsize page \thepage/\pageref*{LastPage}}}
-\fancyhead[R]{\textcolor{my_gray}{\scriptsize Last update: \today}}
+\fancyhead[L]{\textcolor{my_gray}{\scriptsize page
+\thepage/\pageref*{LastPage}}}
+\fancyhead[R]{\textcolor{my_gray}{
+        \scriptsize
+        Last update:
+        \DTMlangsetup{showdayofmonth=false}
+        \today
+    }
+}
 
 %------------------------------------------------------------------------
 \date{}
@@ -133,36 +142,35 @@
         SQL,
         C/C++,
         Fortran,
-        )
+    )
 }
 
 \begin{document}
 %----------------------------------------------------
-\input{./sections/title.tex}
-\input{./sections/contact_info.tex}
-% \input{./sections/contact_info_nz.tex}
-% \input{./sections/contact_info_col.tex}
+\input{./sections/title}
+\input{./sections/contact_info}
+% \input{./sections/contact_info_nz}
+% \input{./sections/contact_info_col}
 %----------------------------------------------------
-\input{./sections/profile.tex}
-\input{./sections/skills.tex}
+\input{./sections/profile}
+\input{./sections/skills}
 %----------------------------------------------------
 
 \setlength{\columnsep}{8mm}
 \begin{multicols}{2}
-    \input{./sections/work.tex}
-    \input{./sections/open_source.tex}
-    % \input{./sections/publications.tex}
-    \input{./sections/academic.tex}
-    % \input{./sections/awards.tex}
-    % \input{./sections/supervision.tex}
-    \input{./sections/references.tex}
+    \input{./sections/work}
+    % \input{./sections/open_source}
+    % \input{./sections/publications}
+    \input{./sections/academic}
+    % \input{./sections/awards}
+    % \input{./sections/supervision}
+    \input{./sections/references}
 
     \vspace*{10mm}
     %----------------------------------------------------
-    \input{./sections/github_qr.tex}
-    \input{./sections/closing.tex}
+    \input{./sections/closing}
+    \input{./sections/github_qr}
 \end{multicols}
-
 
 %----------------------------------------------------
 \end{document}

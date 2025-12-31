@@ -1,12 +1,16 @@
-# Edison**Florez**
+# Edison**Florez**, PhD
 
-Data Scientist  \|  Business Analyst  \|  Computational Physicist
+omputational Lead \| Data Scientist \| Scientific Architect
 
 **<edisonffh@gmail.com> $\bullet$
 [github.com/e-florez](https://github.com/e-florez) $\bullet$
 [linkedin.com/in/edisonflorez](https://www.linkedin.com/in/edisonflorez/)**
 
-**Profile:** 8+ years of experience specializing in statistical analysis, predictive modeling, data processing and mining algorithms across industries like biotech and finance. My passion lies in extracting insights from data through critical thinking and an understanding of underlying concepts. My background spans biotech startups and the financial industry. Proven track record of collaborating with cross-functional teams developing, testing, and deploying scalable data pipelines to translate complex business requirements into actionable data-driven solutions.
+**Profile:**
+
+Computational Lead and Ph.D. scientist bridging the gap between math, physics and enterprise software. I specialize in architecting scalable, cloud-native platforms that integrate AI and first-principles modeling to solve complex biological challenges.
+
+With a unique background spanning biotech R\&D, finance, and sales, I translate ambitious scientific visions into commercially viable, high-performance technologies---currently focused on engineering digital twins to drive innovation in AgriTech.
 
 **Interests:**
 
@@ -21,8 +25,6 @@ Data Scientist  \|  Business Analyst  \|  Computational Physicist
   <img width="50" height="50" src="https://github.com/e-florez/cv/blob/main/figs/microchip.png"></a>
   <a href="Networking">
   <img width="55" height="50" src="https://github.com/e-florez/cv/blob/main/figs/networking.png"></a>
-  <a href="Beer">
-  <img width="45" height="50" src="https://github.com/e-florez/cv/blob/main/figs/beer.png"></a>
   <a href="Cycling">
   <img width="55" height="50" src="https://github.com/e-florez/cv/blob/main/figs/cycling.png"></a>
   <br>
@@ -31,36 +33,44 @@ Data Scientist  \|  Business Analyst  \|  Computational Physicist
 [**Technical Skills:**](.)
 
 - Python
-- C/C++
-- Fortran
 - SQL
-- MongoDB
+- Linux
+- Bash
 - Git
 - Docker
 - AWS
-- PowerBI
-- Excel
-- Linux
-- Bash
+- CI/CD
+- HPC
+- ML/DL
+- GenAI/LLMs
+- Cheminformatics
 
 [**General Skills:**](.)
 
-- Storytelling
-- Leadership
-- Project Management
-- Data Visualization
+- Roadmap Strategy
 - Agile Methodologies
-- Data Preparation
-- Data Base structure
-- Coach/Mentor
+- Mentoring/Leadership
+- Storytelling
+- Stakeholder Management
+- Data Visualization
+- Data Engineering
+- Automated Reporting.
 
 ---
 
 ## Professional [Experience](.)
 
+- **Computational Lead**\
+  [May.2024 - Present](.)\
+  Metrovate [[metrovate.com](https://www.metrovate.com/)], New Zealand
+
+  Architecting a multi-cloud, microservices-based computational platform for de novo peptide design. Orchestrating complex workflows (Target Prep, Docking, MD) using Nextflow, Python, and containerized environments (Docker). Integrating high-performance bioinformatics tools (e.g., Boltz, RFDiffusion, DiffDock, GROMACS, QM/MM, etc.) into a cohesive API-driven ecosystem to generate and screen bioactive protein "digital twins" for agricultural use. Bridging the gap between biological discovery and software engineering, defining the technical roadmap, and overseeing the deployment of scalable AI/ML pipelines.
+
+  **[Achievement:](.)** Designed and deployed the company's flagship "Digital Twin Pipeline", reducing candidate design and discovery time from months to days by automating structural prediction and affinity scoring.
+
 - **Sales Executive and Business Analyst**\
-  [Sep 2023 - Currently](.)\
-  Cordis [[Cordis](www.cordishotels.com/en/auckland)], New Zealand
+  [Sep 2023 - Jun.2025](.)\
+  Cordis [[cordis.com](www.cordishotels.com/en/auckland)], New Zealand
 
   Managed a portfolio of key corporate accounts, fostering strong relationships through regular communication, site inspections, and on-site hosting. Leveraged business intelligence to drive data-driven decision-making. Queried Delphi CRM, Oracle PMS and GDS databases to extract valuable insights on booking trends, customer behavior and market segments. Built automated ETL pipelines using Python to streamline data processing and analysis. Developed interactive dashboards to visualize key sales metrics and performance indicators, enabling real-time monitoring and identification of growth opportunities.
 
