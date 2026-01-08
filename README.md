@@ -1,6 +1,6 @@
 # Edison**Florez**, PhD
 
-omputational Lead \| Data Scientist \| Scientific Architect
+Lead Python Developer \| Senior Data Scientist \| Scientific Software Architect
 
 **<edisonffh@gmail.com> $\bullet$
 [github.com/e-florez](https://github.com/e-florez) $\bullet$
